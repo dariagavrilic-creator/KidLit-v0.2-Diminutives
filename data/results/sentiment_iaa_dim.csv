@@ -1,0 +1,2 @@
+books,sent_dim,sent_nodim,rate_dim,rate_nodim,OR,p_fisher,wilcoxon_books_p,books_higher_in_dim,adj_cases_citing_diminutive
+10,362,1388,0.3397790055248619,0.3659942363112392,0.8915099001746121,0.38960184522553687,1.0,7,3

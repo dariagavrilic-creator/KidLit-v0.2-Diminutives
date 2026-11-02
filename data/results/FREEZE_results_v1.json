@@ -1,0 +1,20 @@
+{
+ "frozen": "2026-10-21T12:47:10",
+ "step": "3.6",
+ "rows": 399,
+ "sha256_16": {
+  "kidlit_dim/analysis/results_master.csv": "69493ed9e8b2a614",
+  "kidlit_dim/detector_v3.1/candidates.parquet": "25848db7bc7bea51",
+  "kidlit_dim/detector_v3/candidates.parquet": "10befedb61cab8d5",
+  "kidlit_dim/gold/gold_2.3.csv": "415ce1b765532609",
+  "kidlit_dim/analysis/dim_lemma_classes_3.3_final.csv": "b3c42815699c5f9a",
+  "kidlit_dim/data/labelstudio/project1.json": "2588eebd62cad71b",
+  "kidlit_dim/data/labelstudio/project2.json": "b4b77161a3ea36cd",
+  "kidlit_dim/analysis/figures/fig1_pipeline.png": "4302b523b31f104e",
+  "kidlit_dim/analysis/figures/fig2_dim_by_book.png": "c5cf307e6b491b3e",
+  "kidlit_dim/analysis/figures/fig3_keyword_classes.png": "10361b619d2ae4aa",
+  "kidlit_dim/analysis/figures/fig4_semantic_classes.png": "ed287725bc864159",
+  "kidlit_dim/analysis/figures/fig5_size_pleonasm.png": "d1d2534a51b31d26"
+ },
+ "rule": "Все числа статьи берутся только из results_master.csv. Пересчёт — только с новой записью FREEZE и пометкой, что изменилось."
+}

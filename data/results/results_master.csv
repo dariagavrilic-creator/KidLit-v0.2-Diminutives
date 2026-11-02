@@ -1,0 +1,470 @@
+id,section,key,value,ci95,n,source,note
+R001,corpus,books_total,120,,,data/books.csv,
+R002,corpus,words_RUS-O,134163,,60,data/book_stats.csv,
+R003,corpus,median_words_per_book_RUS-O,1454.0,,,data/book_stats.csv,
+R004,corpus,words_RUS-T,42012,,60,data/book_stats.csv,
+R005,corpus,median_words_per_book_RUS-T,574.5,,,data/book_stats.csv,
+R006,corpus,words_total,176175,,,data/book_stats.csv,
+R007,iaa_dim,full_reading_F1_DIM,0.904,,"2 books, 2109 words",gold/iaa_report_2.3.md,
+R008,iaa_dim,full_reading_kappa_DIM_vs_not,0.899,,,gold/iaa_report_2.3.md,
+R009,iaa_dim,candidates_kappa_5labels,0.736,,100 candidates,gold/iaa_report_2.3.md,
+R010,iaa_dim,candidates_kappa_DIM_vs_not,0.76,,100 candidates,gold/iaa_report_2.3.md,
+R011,iaa_dim,candidates_raw_agreement,0.83,,100 candidates,gold/iaa_report_2.3.md,
+R012,iaa_dim,adjudicated_cases,86,,,gold/adjudication_2.3.xlsx,
+R013,iaa_dim,new_precedents_v0.4,8,,,Инструкция v0.4,P-19–P-26
+R014,detector,v3_dev_full_reading_DIM_P,0.9847,,129/131,kidlit_dim/detector_v3/eval_dev_test.json,
+R015,detector,v3_dev_full_reading_DIM_R,1.0,,129/129,kidlit_dim/detector_v3/eval_dev_test.json,
+R016,detector,v3_dev_full_reading_DIM_F1,0.9923,,,kidlit_dim/detector_v3/eval_dev_test.json,
+R017,detector,v3_dev_candidates_DIM_P_weighted,0.9418,,,kidlit_dim/detector_v3/eval_dev_test.json,
+R018,detector,v3_dev_candidates_acc_weighted,0.9545,,,kidlit_dim/detector_v3/eval_dev_test.json,
+R019,detector,v3_test_full_reading_DIM_P,0.9173,,122/133,kidlit_dim/detector_v3/eval_dev_test.json,
+R020,detector,v3_test_full_reading_DIM_R,0.9037,,122/135,kidlit_dim/detector_v3/eval_dev_test.json,
+R021,detector,v3_test_full_reading_DIM_F1,0.9104,,,kidlit_dim/detector_v3/eval_dev_test.json,
+R022,detector,v3_test_candidates_DIM_P_weighted,0.8579,,,kidlit_dim/detector_v3/eval_dev_test.json,
+R023,detector,v3_test_candidates_acc_weighted,0.8628,,,kidlit_dim/detector_v3/eval_dev_test.json,
+R024,detector,v2_dev_full_reading_DIM_P,0.9348,,129/138,kidlit_dim/baselines/v2/eval_dev_test.json,
+R025,detector,v2_dev_full_reading_DIM_R,1.0,,129/129,kidlit_dim/baselines/v2/eval_dev_test.json,
+R026,detector,v2_dev_full_reading_DIM_F1,0.9663,,,kidlit_dim/baselines/v2/eval_dev_test.json,
+R027,detector,v2_dev_candidates_DIM_P_weighted,0.8391,,,kidlit_dim/baselines/v2/eval_dev_test.json,
+R028,detector,v2_dev_candidates_acc_weighted,0.8872,,,kidlit_dim/baselines/v2/eval_dev_test.json,
+R029,detector,v2_test_full_reading_DIM_P,0.8849,,123/139,kidlit_dim/baselines/v2/eval_dev_test.json,
+R030,detector,v2_test_full_reading_DIM_R,0.9111,,123/135,kidlit_dim/baselines/v2/eval_dev_test.json,
+R031,detector,v2_test_full_reading_DIM_F1,0.8978,,,kidlit_dim/baselines/v2/eval_dev_test.json,
+R032,detector,v2_test_candidates_DIM_P_weighted,0.8405,,,kidlit_dim/baselines/v2/eval_dev_test.json,
+R033,detector,v2_test_candidates_acc_weighted,0.8556,,,kidlit_dim/baselines/v2/eval_dev_test.json,
+R034,detector,v3_nolex_dev_full_reading_DIM_P,0.9149,,129/141,kidlit_dim/baselines/v3_nolex/eval_dev_test.json,
+R035,detector,v3_nolex_dev_full_reading_DIM_R,1.0,,129/129,kidlit_dim/baselines/v3_nolex/eval_dev_test.json,
+R036,detector,v3_nolex_dev_full_reading_DIM_F1,0.9556,,,kidlit_dim/baselines/v3_nolex/eval_dev_test.json,
+R037,detector,v3_nolex_dev_candidates_DIM_P_weighted,0.7841,,,kidlit_dim/baselines/v3_nolex/eval_dev_test.json,
+R038,detector,v3_nolex_dev_candidates_acc_weighted,0.7744,,,kidlit_dim/baselines/v3_nolex/eval_dev_test.json,
+R039,detector,v3_nolex_test_full_reading_DIM_P,0.8582,,121/141,kidlit_dim/baselines/v3_nolex/eval_dev_test.json,
+R040,detector,v3_nolex_test_full_reading_DIM_R,0.8963,,121/135,kidlit_dim/baselines/v3_nolex/eval_dev_test.json,
+R041,detector,v3_nolex_test_full_reading_DIM_F1,0.8768,,,kidlit_dim/baselines/v3_nolex/eval_dev_test.json,
+R042,detector,v3_nolex_test_candidates_DIM_P_weighted,0.7335,,,kidlit_dim/baselines/v3_nolex/eval_dev_test.json,
+R043,detector,v3_nolex_test_candidates_acc_weighted,0.7078,,,kidlit_dim/baselines/v3_nolex/eval_dev_test.json,
+R044,detector,v3_test_full_reading_DIM_P_ci,,0.858–0.953,,detector_v3/eval_dev_test.md,
+R045,detector,v3_test_full_reading_DIM_R_ci,,0.842–0.943,,detector_v3/eval_dev_test.md,
+R046,detector,v3_test_full_reading_YOUNG_P,1.0,,34/34,detector_v3/eval_dev_test.json,
+R047,detector,v3_test_full_reading_YOUNG_R,1.0,,34/34,detector_v3/eval_dev_test.json,
+R048,detector,v3_test_full_reading_HYP_P,1.0,,1/1,detector_v3/eval_dev_test.json,
+R049,detector,v3_test_full_reading_HYP_R,0.3333,,1/3,detector_v3/eval_dev_test.json,
+R050,detector,v3_test_full_reading_DIM_P_RUS-O,0.9369,,,kidlit_dim_eval.py (_pr),
+R051,detector,v3_test_full_reading_DIM_R_RUS-O,0.9286,,,kidlit_dim_eval.py (_pr),
+R052,detector,v3_test_full_reading_DIM_P_RUS-T,0.8182,,,kidlit_dim_eval.py (_pr),
+R053,detector,v3_test_full_reading_DIM_R_RUS-T,0.7826,,,kidlit_dim_eval.py (_pr),
+R054,detector,test_run_record,2026-10-20T01:19:40,,,gold/TEST_RUN.json,
+R055,corpus_v3.1,DIM_tokens_RUS-O,4590,,,detector_v3.1/candidates.parquet,
+R056,corpus_v3.1,DIM_per_1000w_pooled_RUS-O,34.2121,,,detector_v3.1/candidates.parquet,
+R057,corpus_v3.1,DIM_tokens_RUS-T,918,,,detector_v3.1/candidates.parquet,
+R058,corpus_v3.1,DIM_per_1000w_pooled_RUS-T,21.8509,,,detector_v3.1/candidates.parquet,
+R059,corpus_v3.1,HYP_tokens_RUS-O,100,,,detector_v3.1/candidates.parquet,
+R060,corpus_v3.1,HYP_per_1000w_pooled_RUS-O,0.7454,,,detector_v3.1/candidates.parquet,
+R061,corpus_v3.1,HYP_tokens_RUS-T,0,,,detector_v3.1/candidates.parquet,
+R062,corpus_v3.1,HYP_per_1000w_pooled_RUS-T,0.0,,,detector_v3.1/candidates.parquet,
+R063,corpus_v3.1,YOUNG_tokens_RUS-O,1006,,,detector_v3.1/candidates.parquet,
+R064,corpus_v3.1,YOUNG_per_1000w_pooled_RUS-O,7.4983,,,detector_v3.1/candidates.parquet,
+R065,corpus_v3.1,YOUNG_tokens_RUS-T,357,,,detector_v3.1/candidates.parquet,
+R066,corpus_v3.1,YOUNG_per_1000w_pooled_RUS-T,8.4976,,,detector_v3.1/candidates.parquet,
+R067,corpus_v3.1,LEX_tokens_RUS-O,1128,,,detector_v3.1/candidates.parquet,
+R068,corpus_v3.1,LEX_per_1000w_pooled_RUS-O,8.4077,,,detector_v3.1/candidates.parquet,
+R069,corpus_v3.1,LEX_tokens_RUS-T,468,,,detector_v3.1/candidates.parquet,
+R070,corpus_v3.1,LEX_per_1000w_pooled_RUS-T,11.1397,,,detector_v3.1/candidates.parquet,
+R071,corpus_v3.1,DIM_lemmas,736,,,detector_v3.1/candidates.parquet,
+R072,corpus_v3.1,context_needs_review,448,,,detector_v3.1/candidates.parquet,
+R073,group_tests,dim_per_1000w_median_RUS-O,30.5061,,60,analysis/group_tests.csv,
+R074,group_tests,dim_per_1000w_median_RUS-T,15.3277,,60,analysis/group_tests.csv,
+R075,group_tests,dim_per_1000w_median_diff,15.1784,6.92…21.9,,analysis/group_tests.csv,
+R076,group_tests,dim_per_1000w_cliffs_delta,0.3644,0.172–0.549,,analysis/group_tests.csv,
+R077,group_tests,dim_per_1000w_p_mw,0.0006,,,analysis/group_tests.csv,
+R078,group_tests,dim_per_1000w_q_bh,0.0021,,,analysis/group_tests.csv,BH по 11 метрикам
+R079,group_tests,dim_per_1000w_spearman_loglen,0.1586,,,analysis/group_tests.csv,
+R080,group_tests,dim_per_1000w_ols_group_coef,14.2744,4.77…23.8,,analysis/group_tests.csv,OLS (HC3): metric ~ group + log(words) + genre; RUS-O относительно RUS-T
+R081,group_tests,dim_per_1000w_ols_group_q_bh,0.0191,,,analysis/group_tests.csv,
+R082,group_tests,dim_noun_per_100n_median_RUS-O,10.8765,,60,analysis/group_tests.csv,
+R083,group_tests,dim_noun_per_100n_median_RUS-T,5.9756,,60,analysis/group_tests.csv,
+R084,group_tests,dim_noun_per_100n_median_diff,4.9009,2.52…8.64,,analysis/group_tests.csv,
+R085,group_tests,dim_noun_per_100n_cliffs_delta,0.3756,0.177–0.559,,analysis/group_tests.csv,
+R086,group_tests,dim_noun_per_100n_p_mw,0.0004,,,analysis/group_tests.csv,
+R087,group_tests,dim_noun_per_100n_q_bh,0.0021,,,analysis/group_tests.csv,BH по 11 метрикам
+R088,group_tests,dim_noun_per_100n_spearman_loglen,0.1619,,,analysis/group_tests.csv,
+R089,group_tests,dim_noun_per_100n_ols_group_coef,5.3699,1.77…8.97,,analysis/group_tests.csv,OLS (HC3): metric ~ group + log(words) + genre; RUS-O относительно RUS-T
+R090,group_tests,dim_noun_per_100n_ols_group_q_bh,0.0191,,,analysis/group_tests.csv,
+R091,group_tests,dim_lemma_share_median_RUS-O,0.1187,,60,analysis/group_tests.csv,
+R092,group_tests,dim_lemma_share_median_RUS-T,0.0714,,60,analysis/group_tests.csv,
+R093,group_tests,dim_lemma_share_median_diff,0.0473,0.0211…0.0756,,analysis/group_tests.csv,
+R094,group_tests,dim_lemma_share_cliffs_delta,0.3497,0.160–0.547,,analysis/group_tests.csv,
+R095,group_tests,dim_lemma_share_p_mw,0.001,,,analysis/group_tests.csv,
+R096,group_tests,dim_lemma_share_q_bh,0.0023,,,analysis/group_tests.csv,BH по 11 метрикам
+R097,group_tests,dim_lemma_share_spearman_loglen,0.2241,,,analysis/group_tests.csv,
+R098,group_tests,dim_lemma_share_ols_group_coef,0.0287,0.00593…0.0516,,analysis/group_tests.csv,OLS (HC3): metric ~ group + log(words) + genre; RUS-O относительно RUS-T
+R099,group_tests,dim_lemma_share_ols_group_q_bh,0.0497,,,analysis/group_tests.csv,
+R100,group_tests,dim_lemmas_n_median_RUS-O,14.5,,60,analysis/group_tests.csv,
+R101,group_tests,dim_lemmas_n_median_RUS-T,6.0,,60,analysis/group_tests.csv,
+R102,group_tests,dim_lemmas_n_median_diff,8.5,5…19,,analysis/group_tests.csv,
+R103,group_tests,dim_lemmas_n_cliffs_delta,0.6006,0.436–0.747,,analysis/group_tests.csv,
+R104,group_tests,dim_lemmas_n_p_mw,0.0,,,analysis/group_tests.csv,
+R105,group_tests,dim_lemmas_n_q_bh,0.0,,,analysis/group_tests.csv,BH по 11 метрикам
+R106,group_tests,dim_lemmas_n_spearman_loglen,0.7452,,,analysis/group_tests.csv,
+R107,group_tests,dim_lemmas_n_ols_group_coef,1.2676,-3.09…5.63,,analysis/group_tests.csv,OLS (HC3): metric ~ group + log(words) + genre; RUS-O относительно RUS-T
+R108,group_tests,dim_lemmas_n_ols_group_q_bh,0.6258,,,analysis/group_tests.csv,
+R109,group_tests,dim_choice_median_RUS-O,0.4397,,59,analysis/group_tests.csv,
+R110,group_tests,dim_choice_median_RUS-T,0.4348,,43,analysis/group_tests.csv,
+R111,group_tests,dim_choice_median_diff,0.0049,-0.0873…0.156,,analysis/group_tests.csv,
+R112,group_tests,dim_choice_cliffs_delta,0.0225,-0.207–0.263,,analysis/group_tests.csv,
+R113,group_tests,dim_choice_p_mw,0.8493,,,analysis/group_tests.csv,
+R114,group_tests,dim_choice_q_bh,0.9342,,,analysis/group_tests.csv,BH по 11 метрикам
+R115,group_tests,dim_choice_spearman_loglen,-0.3557,,,analysis/group_tests.csv,
+R116,group_tests,dim_choice_ols_group_coef,0.0643,-0.0224…0.151,,analysis/group_tests.csv,OLS (HC3): metric ~ group + log(words) + genre; RUS-O относительно RUS-T
+R117,group_tests,dim_choice_ols_group_q_bh,0.4014,,,analysis/group_tests.csv,
+R118,group_tests,hyp_per_1000w_median_RUS-O,0.0,,60,analysis/group_tests.csv,
+R119,group_tests,hyp_per_1000w_median_RUS-T,0.0,,60,analysis/group_tests.csv,
+R120,group_tests,hyp_per_1000w_median_diff,0.0,0…0,,analysis/group_tests.csv,
+R121,group_tests,hyp_per_1000w_cliffs_delta,0.1667,0.083–0.267,,analysis/group_tests.csv,
+R122,group_tests,hyp_per_1000w_p_mw,0.001,,,analysis/group_tests.csv,
+R123,group_tests,hyp_per_1000w_q_bh,0.0023,,,analysis/group_tests.csv,BH по 11 метрикам
+R124,group_tests,hyp_per_1000w_spearman_loglen,0.3407,,,analysis/group_tests.csv,
+R125,group_tests,hyp_per_1000w_ols_group_coef,0.3732,-0.33…1.08,,analysis/group_tests.csv,OLS (HC3): metric ~ group + log(words) + genre; RUS-O относительно RUS-T
+R126,group_tests,hyp_per_1000w_ols_group_q_bh,0.5936,,,analysis/group_tests.csv,
+R127,group_tests,young_per_1000w_median_RUS-O,0.2401,,60,analysis/group_tests.csv,
+R128,group_tests,young_per_1000w_median_RUS-T,0.0,,60,analysis/group_tests.csv,
+R129,group_tests,young_per_1000w_median_diff,0.2401,-3.19…1.93,,analysis/group_tests.csv,
+R130,group_tests,young_per_1000w_cliffs_delta,0.0056,-0.194–0.196,,analysis/group_tests.csv,
+R131,group_tests,young_per_1000w_p_mw,0.9575,,,analysis/group_tests.csv,
+R132,group_tests,young_per_1000w_q_bh,0.9575,,,analysis/group_tests.csv,BH по 11 метрикам
+R133,group_tests,young_per_1000w_spearman_loglen,0.2004,,,analysis/group_tests.csv,
+R134,group_tests,young_per_1000w_ols_group_coef,-2.0439,-7.93…3.84,,analysis/group_tests.csv,OLS (HC3): metric ~ group + log(words) + genre; RUS-O относительно RUS-T
+R135,group_tests,young_per_1000w_ols_group_q_bh,0.6061,,,analysis/group_tests.csv,
+R136,group_tests,dim_adj_per_1000w_median_RUS-O,0.0,,60,analysis/group_tests.csv,
+R137,group_tests,dim_adj_per_1000w_median_RUS-T,0.0,,60,analysis/group_tests.csv,
+R138,group_tests,dim_adj_per_1000w_median_diff,0.0,0…0.41,,analysis/group_tests.csv,
+R139,group_tests,dim_adj_per_1000w_cliffs_delta,0.1961,0.029–0.358,,analysis/group_tests.csv,
+R140,group_tests,dim_adj_per_1000w_p_mw,0.0286,,,analysis/group_tests.csv,
+R141,group_tests,dim_adj_per_1000w_q_bh,0.0525,,,analysis/group_tests.csv,BH по 11 метрикам
+R142,group_tests,dim_adj_per_1000w_spearman_loglen,0.3253,,,analysis/group_tests.csv,
+R143,group_tests,dim_adj_per_1000w_ols_group_coef,0.2233,-0.278…0.725,,analysis/group_tests.csv,OLS (HC3): metric ~ group + log(words) + genre; RUS-O относительно RUS-T
+R144,group_tests,dim_adj_per_1000w_ols_group_q_bh,0.6019,,,analysis/group_tests.csv,
+R145,group_tests,dim_adv_per_1000w_median_RUS-O,0.0,,60,analysis/group_tests.csv,
+R146,group_tests,dim_adv_per_1000w_median_RUS-T,0.0,,60,analysis/group_tests.csv,
+R147,group_tests,dim_adv_per_1000w_median_diff,0.0,0…0.321,,analysis/group_tests.csv,
+R148,group_tests,dim_adv_per_1000w_cliffs_delta,0.1056,-0.073–0.286,,analysis/group_tests.csv,
+R149,group_tests,dim_adv_per_1000w_p_mw,0.2429,,,analysis/group_tests.csv,
+R150,group_tests,dim_adv_per_1000w_q_bh,0.2969,,,analysis/group_tests.csv,BH по 11 метрикам
+R151,group_tests,dim_adv_per_1000w_spearman_loglen,0.2086,,,analysis/group_tests.csv,
+R152,group_tests,dim_adv_per_1000w_ols_group_coef,0.0787,-0.439…0.596,,analysis/group_tests.csv,OLS (HC3): metric ~ group + log(words) + genre; RUS-O относительно RUS-T
+R153,group_tests,dim_adv_per_1000w_ols_group_q_bh,0.7657,,,analysis/group_tests.csv,
+R154,group_tests,pej_share_median_RUS-O,0.0,,60,analysis/group_tests.csv,
+R155,group_tests,pej_share_median_RUS-T,0.0,,58,analysis/group_tests.csv,
+R156,group_tests,pej_share_median_diff,0.0,0…0,,analysis/group_tests.csv,
+R157,group_tests,pej_share_cliffs_delta,0.1397,-0.020–0.299,,analysis/group_tests.csv,
+R158,group_tests,pej_share_p_mw,0.0917,,,analysis/group_tests.csv,
+R159,group_tests,pej_share_q_bh,0.1261,,,analysis/group_tests.csv,BH по 11 метрикам
+R160,group_tests,pej_share_spearman_loglen,0.2389,,,analysis/group_tests.csv,
+R161,group_tests,pej_share_ols_group_coef,-0.008,-0.024…0.00794,,analysis/group_tests.csv,OLS (HC3): metric ~ group + log(words) + genre; RUS-O относительно RUS-T
+R162,group_tests,pej_share_ols_group_q_bh,0.5936,,,analysis/group_tests.csv,
+R163,group_tests,name_share_median_RUS-O,0.0317,,60,analysis/group_tests.csv,
+R164,group_tests,name_share_median_RUS-T,0.0,,58,analysis/group_tests.csv,
+R165,group_tests,name_share_median_diff,0.0317,0…0.113,,analysis/group_tests.csv,
+R166,group_tests,name_share_cliffs_delta,0.173,-0.018–0.350,,analysis/group_tests.csv,
+R167,group_tests,name_share_p_mw,0.0735,,,analysis/group_tests.csv,
+R168,group_tests,name_share_q_bh,0.1155,,,analysis/group_tests.csv,BH по 11 метрикам
+R169,group_tests,name_share_spearman_loglen,0.1274,,,analysis/group_tests.csv,
+R170,group_tests,name_share_ols_group_coef,0.0417,-0.0672…0.151,,analysis/group_tests.csv,OLS (HC3): metric ~ group + log(words) + genre; RUS-O относительно RUS-T
+R171,group_tests,name_share_ols_group_q_bh,0.6061,,,analysis/group_tests.csv,
+R172,sensitivity,base_dim_per_1000w_cliffs_delta,0.3644,0.172–0.549,,analysis/sensitivity.csv,медианы 30.51 / 15.33; q=0.0009; OLS p=0.0032
+R173,sensitivity,base_dim_noun_per_100n_cliffs_delta,0.3756,0.177–0.559,,analysis/sensitivity.csv,медианы 10.88 / 5.98; q=0.0009; OLS p=0.0035
+R174,sensitivity,base_dim_choice_cliffs_delta,0.0225,-0.211–0.259,,analysis/sensitivity.csv,медианы 0.44 / 0.43; q=0.8493; OLS p=0.1459
+R175,sensitivity,p01_dim_dim_per_1000w_cliffs_delta,0.2844,0.088–0.476,,analysis/sensitivity.csv,медианы 32.28 / 17.01; q=0.0109; OLS p=0.0232
+R176,sensitivity,p01_dim_dim_noun_per_100n_cliffs_delta,0.2953,0.093–0.491,,analysis/sensitivity.csv,медианы 11.74 / 6.59; q=0.0109; OLS p=0.0188
+R177,sensitivity,p01_dim_dim_choice_cliffs_delta,0.0225,-0.211–0.259,,analysis/sensitivity.csv,медианы 0.44 / 0.43; q=0.8493; OLS p=0.1459
+R178,sensitivity,p19_lex_dim_per_1000w_cliffs_delta,0.3661,0.173–0.552,,analysis/sensitivity.csv,медианы 30.45 / 15.19; q=0.0008; OLS p=0.0030
+R179,sensitivity,p19_lex_dim_noun_per_100n_cliffs_delta,0.3767,0.179–0.559,,analysis/sensitivity.csv,медианы 10.88 / 5.57; q=0.0008; OLS p=0.0033
+R180,sensitivity,p19_lex_dim_choice_cliffs_delta,0.0148,-0.215–0.243,,analysis/sensitivity.csv,медианы 0.43 / 0.43; q=0.9015; OLS p=0.1401
+R181,sensitivity,no_context_dim_per_1000w_cliffs_delta,0.3472,0.152–0.531,,analysis/sensitivity.csv,медианы 26.53 / 14.15; q=0.0016; OLS p=0.0109
+R182,sensitivity,no_context_dim_noun_per_100n_cliffs_delta,0.3578,0.162–0.548,,analysis/sensitivity.csv,медианы 9.69 / 5.47; q=0.0016; OLS p=0.0104
+R183,sensitivity,no_context_dim_choice_cliffs_delta,0.0157,-0.229–0.256,,analysis/sensitivity.csv,медианы 0.42 / 0.42; q=0.8967; OLS p=0.2476
+R184,sensitivity,detector_corrected_dim_per_1000w_cliffs_delta,0.3383,0.144–0.524,,analysis/sensitivity.csv,медианы 30.77 / 16.01; q=0.0014; OLS p=0.0059
+R185,sensitivity,detector_corrected_dim_noun_per_100n_cliffs_delta,0.3511,0.152–0.538,,analysis/sensitivity.csv,медианы 10.97 / 6.24; q=0.0014; OLS p=0.0061
+R186,rus_t_language,английский_median_dim_per_1000w,15.5039,,29,analysis/rus_t_by_language.csv,описательно
+R187,rus_t_language,французский_median_dim_per_1000w,16.3934,,11,analysis/rus_t_by_language.csv,описательно
+R188,rus_t_language,другие_median_dim_per_1000w,18.1464,,10,analysis/rus_t_by_language.csv,описательно
+R189,rus_t_language,немецкий_median_dim_per_1000w,12.1464,,10,analysis/rus_t_by_language.csv,описательно
+R190,semantics,keyness_classes_kappa,0.634,,30 lemmas,keyness/filled/keyness_classes_kappa30_expert2.xlsx,20 из 30 совпали; до обсуждения расхождений
+R191,semantics,top100_keywords_class_животные,23,,,keyness/filled/kidlit_vs_ref_top100.xlsx,
+R192,semantics,top100_keywords_class_природа и погода,11,,,keyness/filled/kidlit_vs_ref_top100.xlsx,
+R193,semantics,top100_keywords_class_грамматическое слово,7,,,keyness/filled/kidlit_vs_ref_top100.xlsx,
+R194,semantics,top100_keywords_class_семья и люди,7,,,keyness/filled/kidlit_vs_ref_top100.xlsx,
+R195,semantics,top100_keywords_class_транспорт и техника,7,,,keyness/filled/kidlit_vs_ref_top100.xlsx,
+R196,semantics,top100_keywords_class_игрушки и игры,7,,,keyness/filled/kidlit_vs_ref_top100.xlsx,
+R197,semantics,top100_keywords_class_действия и движение,6,,,keyness/filled/kidlit_vs_ref_top100.xlsx,
+R198,semantics,"top100_keywords_class_эмоции, оценка, отношения",5,,,keyness/filled/kidlit_vs_ref_top100.xlsx,
+R199,semantics,"top100_keywords_class_цвет, размер, форма",4,,,keyness/filled/kidlit_vs_ref_top100.xlsx,
+R200,semantics,top100_keywords_class_время и место,4,,,keyness/filled/kidlit_vs_ref_top100.xlsx,
+R201,semantics,top100_keywords_class_части тела,3,,,keyness/filled/kidlit_vs_ref_top100.xlsx,
+R202,semantics,top100_keywords_class_дом и быт,3,,,keyness/filled/kidlit_vs_ref_top100.xlsx,
+R203,semantics,top100_keywords_class_сказочное и волшебное,3,,,keyness/filled/kidlit_vs_ref_top100.xlsx,
+R204,semantics,top100_keywords_class_речь и этикет,3,,,keyness/filled/kidlit_vs_ref_top100.xlsx,
+R205,semantics,top100_keywords_class_еда и напитки,2,,,keyness/filled/kidlit_vs_ref_top100.xlsx,
+R206,semantics,top100_keywords_class_звукоподражания и междометия,2,,,keyness/filled/kidlit_vs_ref_top100.xlsx,
+R207,semantics,top100_keywords_class_имя собственное,2,,,keyness/filled/kidlit_vs_ref_top100.xlsx,
+R208,semantics,top100_keywords_class_праздники,1,,,keyness/filled/kidlit_vs_ref_top100.xlsx,
+R209,semantics,dim_class_животные_share_RUS-O,0.1444,,517,analysis/semantic_classes_by_group.csv,
+R210,semantics,dim_class_животные_per1000w_RUS-O,3.8535,,,analysis/semantic_classes_by_group.csv,
+R211,semantics,dim_class_животные_share_RUS-T,0.1171,,81,analysis/semantic_classes_by_group.csv,
+R212,semantics,dim_class_животные_per1000w_RUS-T,1.928,,,analysis/semantic_classes_by_group.csv,
+R213,semantics,dim_class_животные_contribution_to_gap,0.1885,,,analysis/semantic_classes_by_group.csv,
+R214,semantics,dim_class_дом и быт_share_RUS-O,0.1274,,456,analysis/semantic_classes_by_group.csv,
+R215,semantics,dim_class_дом и быт_per1000w_RUS-O,3.3989,,,analysis/semantic_classes_by_group.csv,
+R216,semantics,dim_class_дом и быт_share_RUS-T,0.0679,,47,analysis/semantic_classes_by_group.csv,
+R217,semantics,dim_class_дом и быт_per1000w_RUS-T,1.1187,,,analysis/semantic_classes_by_group.csv,
+R218,semantics,dim_class_дом и быт_contribution_to_gap,0.2233,,,analysis/semantic_classes_by_group.csv,
+R219,semantics,dim_class_природа и погода_share_RUS-O,0.1115,,399,analysis/semantic_classes_by_group.csv,
+R220,semantics,dim_class_природа и погода_per1000w_RUS-O,2.974,,,analysis/semantic_classes_by_group.csv,
+R221,semantics,dim_class_природа и погода_share_RUS-T,0.1199,,83,analysis/semantic_classes_by_group.csv,
+R222,semantics,dim_class_природа и погода_per1000w_RUS-T,1.9756,,,analysis/semantic_classes_by_group.csv,
+R223,semantics,dim_class_природа и погода_contribution_to_gap,0.0978,,,analysis/semantic_classes_by_group.csv,
+R224,semantics,dim_class_еда и напитки_share_RUS-O,0.1106,,396,analysis/semantic_classes_by_group.csv,
+R225,semantics,dim_class_еда и напитки_per1000w_RUS-O,2.9516,,,analysis/semantic_classes_by_group.csv,
+R226,semantics,dim_class_еда и напитки_share_RUS-T,0.0405,,28,analysis/semantic_classes_by_group.csv,
+R227,semantics,dim_class_еда и напитки_per1000w_RUS-T,0.6665,,,analysis/semantic_classes_by_group.csv,
+R228,semantics,dim_class_еда и напитки_contribution_to_gap,0.2238,,,analysis/semantic_classes_by_group.csv,
+R229,semantics,dim_class_части тела_share_RUS-O,0.1022,,366,analysis/semantic_classes_by_group.csv,
+R230,semantics,dim_class_части тела_per1000w_RUS-O,2.728,,,analysis/semantic_classes_by_group.csv,
+R231,semantics,dim_class_части тела_share_RUS-T,0.1662,,115,analysis/semantic_classes_by_group.csv,
+R232,semantics,dim_class_части тела_per1000w_RUS-T,2.7373,,,analysis/semantic_classes_by_group.csv,
+R233,semantics,dim_class_части тела_contribution_to_gap,-0.0009,,,analysis/semantic_classes_by_group.csv,
+R234,semantics,dim_class_транспорт и техника_share_RUS-O,0.0858,,307,analysis/semantic_classes_by_group.csv,
+R235,semantics,dim_class_транспорт и техника_per1000w_RUS-O,2.2883,,,analysis/semantic_classes_by_group.csv,
+R236,semantics,dim_class_транспорт и техника_share_RUS-T,0.0766,,53,analysis/semantic_classes_by_group.csv,
+R237,semantics,dim_class_транспорт и техника_per1000w_RUS-T,1.2615,,,analysis/semantic_classes_by_group.csv,
+R238,semantics,dim_class_транспорт и техника_contribution_to_gap,0.1005,,,analysis/semantic_classes_by_group.csv,
+R239,semantics,dim_class_семья и люди_share_RUS-O,0.0726,,260,analysis/semantic_classes_by_group.csv,
+R240,semantics,dim_class_семья и люди_per1000w_RUS-O,1.9379,,,analysis/semantic_classes_by_group.csv,
+R241,semantics,dim_class_семья и люди_share_RUS-T,0.0853,,59,analysis/semantic_classes_by_group.csv,
+R242,semantics,dim_class_семья и люди_per1000w_RUS-T,1.4044,,,analysis/semantic_classes_by_group.csv,
+R243,semantics,dim_class_семья и люди_contribution_to_gap,0.0522,,,analysis/semantic_classes_by_group.csv,
+R244,semantics,dim_class_игрушки и игры_share_RUS-O,0.0712,,255,analysis/semantic_classes_by_group.csv,
+R245,semantics,dim_class_игрушки и игры_per1000w_RUS-O,1.9007,,,analysis/semantic_classes_by_group.csv,
+R246,semantics,dim_class_игрушки и игры_share_RUS-T,0.0679,,47,analysis/semantic_classes_by_group.csv,
+R247,semantics,dim_class_игрушки и игры_per1000w_RUS-T,1.1187,,,analysis/semantic_classes_by_group.csv,
+R248,semantics,dim_class_игрушки и игры_contribution_to_gap,0.0766,,,analysis/semantic_classes_by_group.csv,
+R249,semantics,dim_class_прочее_share_RUS-O,0.064,,229,analysis/semantic_classes_by_group.csv,
+R250,semantics,dim_class_прочее_per1000w_RUS-O,1.7069,,,analysis/semantic_classes_by_group.csv,
+R251,semantics,dim_class_прочее_share_RUS-T,0.0275,,19,analysis/semantic_classes_by_group.csv,
+R252,semantics,dim_class_прочее_per1000w_RUS-T,0.4523,,,analysis/semantic_classes_by_group.csv,
+R253,semantics,dim_class_прочее_contribution_to_gap,0.1229,,,analysis/semantic_classes_by_group.csv,
+R254,semantics,dim_class_одежда_share_RUS-O,0.036,,129,analysis/semantic_classes_by_group.csv,
+R255,semantics,dim_class_одежда_per1000w_RUS-O,0.9615,,,analysis/semantic_classes_by_group.csv,
+R256,semantics,dim_class_одежда_share_RUS-T,0.0087,,6,analysis/semantic_classes_by_group.csv,
+R257,semantics,dim_class_одежда_per1000w_RUS-T,0.1428,,,analysis/semantic_classes_by_group.csv,
+R258,semantics,dim_class_одежда_contribution_to_gap,0.0802,,,analysis/semantic_classes_by_group.csv,
+R259,semantics,"dim_class_цвет, размер, форма_share_RUS-O",0.0282,,101,analysis/semantic_classes_by_group.csv,
+R260,semantics,"dim_class_цвет, размер, форма_per1000w_RUS-O",0.7528,,,analysis/semantic_classes_by_group.csv,
+R261,semantics,"dim_class_цвет, размер, форма_share_RUS-T",0.065,,45,analysis/semantic_classes_by_group.csv,
+R262,semantics,"dim_class_цвет, размер, форма_per1000w_RUS-T",1.0711,,,analysis/semantic_classes_by_group.csv,
+R263,semantics,"dim_class_цвет, размер, форма_contribution_to_gap",-0.0312,,,analysis/semantic_classes_by_group.csv,
+R264,semantics,dim_class_действия и движение_share_RUS-O,0.0148,,53,analysis/semantic_classes_by_group.csv,
+R265,semantics,dim_class_действия и движение_per1000w_RUS-O,0.395,,,analysis/semantic_classes_by_group.csv,
+R266,semantics,dim_class_действия и движение_share_RUS-T,0.0202,,14,analysis/semantic_classes_by_group.csv,
+R267,semantics,dim_class_действия и движение_per1000w_RUS-T,0.3332,,,analysis/semantic_classes_by_group.csv,
+R268,semantics,dim_class_действия и движение_contribution_to_gap,0.0061,,,analysis/semantic_classes_by_group.csv,
+R269,semantics,dim_class_время и место_share_RUS-O,0.0126,,45,analysis/semantic_classes_by_group.csv,
+R270,semantics,dim_class_время и место_per1000w_RUS-O,0.3354,,,analysis/semantic_classes_by_group.csv,
+R271,semantics,dim_class_время и место_share_RUS-T,0.0434,,30,analysis/semantic_classes_by_group.csv,
+R272,semantics,dim_class_время и место_per1000w_RUS-T,0.7141,,,analysis/semantic_classes_by_group.csv,
+R273,semantics,dim_class_время и место_contribution_to_gap,-0.0371,,,analysis/semantic_classes_by_group.csv,
+R274,semantics,dim_class_книги и учёба_share_RUS-O,0.0098,,35,analysis/semantic_classes_by_group.csv,
+R275,semantics,dim_class_книги и учёба_per1000w_RUS-O,0.2609,,,analysis/semantic_classes_by_group.csv,
+R276,semantics,dim_class_книги и учёба_share_RUS-T,0.0535,,37,analysis/semantic_classes_by_group.csv,
+R277,semantics,dim_class_книги и учёба_per1000w_RUS-T,0.8807,,,analysis/semantic_classes_by_group.csv,
+R278,semantics,dim_class_книги и учёба_contribution_to_gap,-0.0607,,,analysis/semantic_classes_by_group.csv,
+R279,semantics,dim_class_праздники_share_RUS-O,0.0042,,15,analysis/semantic_classes_by_group.csv,
+R280,semantics,dim_class_праздники_per1000w_RUS-O,0.1118,,,analysis/semantic_classes_by_group.csv,
+R281,semantics,dim_class_праздники_share_RUS-T,0.0043,,3,analysis/semantic_classes_by_group.csv,
+R282,semantics,dim_class_праздники_per1000w_RUS-T,0.0714,,,analysis/semantic_classes_by_group.csv,
+R283,semantics,dim_class_праздники_contribution_to_gap,0.004,,,analysis/semantic_classes_by_group.csv,
+R284,semantics,dim_class_звукоподражания и междометия_share_RUS-O,0.0028,,10,analysis/semantic_classes_by_group.csv,
+R285,semantics,dim_class_звукоподражания и междометия_per1000w_RUS-O,0.0745,,,analysis/semantic_classes_by_group.csv,
+R286,semantics,dim_class_звукоподражания и междометия_share_RUS-T,0.0,,0,analysis/semantic_classes_by_group.csv,
+R287,semantics,dim_class_звукоподражания и междометия_per1000w_RUS-T,0.0,,,analysis/semantic_classes_by_group.csv,
+R288,semantics,dim_class_звукоподражания и междометия_contribution_to_gap,0.0073,,,analysis/semantic_classes_by_group.csv,
+R289,semantics,dim_class_имя собственное_share_RUS-O,0.002,,7,analysis/semantic_classes_by_group.csv,
+R290,semantics,dim_class_имя собственное_per1000w_RUS-O,0.0522,,,analysis/semantic_classes_by_group.csv,
+R291,semantics,dim_class_имя собственное_share_RUS-T,0.0361,,25,analysis/semantic_classes_by_group.csv,
+R292,semantics,dim_class_имя собственное_per1000w_RUS-T,0.5951,,,analysis/semantic_classes_by_group.csv,
+R293,semantics,dim_class_имя собственное_contribution_to_gap,-0.0532,,,analysis/semantic_classes_by_group.csv,
+R294,semantics,dim_class_прочее_book_level_delta,0.3262,,,analysis/semantic_class_tests.csv,"p=0.00422, q=0.0717"
+R295,semantics,dim_class_одежда_book_level_delta,0.2146,,,analysis/semantic_class_tests.csv,"p=0.0127, q=0.108"
+R296,semantics,dim_class_транспорт и техника_book_level_delta,0.2089,,,analysis/semantic_class_tests.csv,"p=0.0263, q=0.125"
+R297,semantics,dim_class_еда и напитки_book_level_delta,0.2298,,,analysis/semantic_class_tests.csv,"p=0.036, q=0.125"
+R298,semantics,dim_class_игрушки и игры_book_level_delta,0.2241,,,analysis/semantic_class_tests.csv,"p=0.0366, q=0.125"
+R299,semantics,dim_class_дом и быт_book_level_delta,0.2108,,,analysis/semantic_class_tests.csv,"p=0.0748, q=0.212"
+R300,semantics,dim_class_праздники_book_level_delta,0.0826,,,analysis/semantic_class_tests.csv,"p=0.141, q=0.342"
+R301,semantics,"dim_class_цвет, размер, форма_book_level_delta",0.123,,,analysis/semantic_class_tests.csv,"p=0.185, q=0.36"
+R302,semantics,dim_class_время и место_book_level_delta,0.1216,,,analysis/semantic_class_tests.csv,"p=0.21, q=0.36"
+R303,semantics,dim_class_животные_book_level_delta,0.1453,,,analysis/semantic_class_tests.csv,"p=0.222, q=0.36"
+R304,semantics,dim_class_звукоподражания и междометия_book_level_delta,0.037,,,analysis/semantic_class_tests.csv,"p=0.233, q=0.36"
+R305,semantics,dim_class_действия и движение_book_level_delta,0.0945,,,analysis/semantic_class_tests.csv,"p=0.309, q=0.437"
+R306,semantics,dim_class_имя собственное_book_level_delta,0.0465,,,analysis/semantic_class_tests.csv,"p=0.334, q=0.437"
+R307,semantics,dim_class_части тела_book_level_delta,0.0831,,,analysis/semantic_class_tests.csv,"p=0.489, q=0.594"
+R308,semantics,dim_class_семья и люди_book_level_delta,-0.0703,,,analysis/semantic_class_tests.csv,"p=0.543, q=0.616"
+R309,semantics,dim_class_природа и погода_book_level_delta,0.0646,,,analysis/semantic_class_tests.csv,"p=0.594, q=0.631"
+R310,semantics,dim_class_книги и учёба_book_level_delta,0.0223,,,analysis/semantic_class_tests.csv,"p=0.821, q=0.821"
+R311,semantics,dim_class_coverage,0.795,,"204 lemmas, 9 excluded",analysis/semantics_report.md,
+R312,semantics,dim_class_chi2_token_level_cramersV,0.27,,,analysis/semantics_report.md,"χ²=313.1, df=16; словоупотребления не независимы"
+R313,sensitivity,excl_nondim_p20_dim_per_1000w_cliffs_delta,0.3461,0.149–0.529,,analysis/sensitivity_excl.csv,медианы 29.76 / 15.04; q=0.0016
+R314,sensitivity,excl_nondim_p20_dim_noun_per_100n_cliffs_delta,0.3711,0.176–0.556,,analysis/sensitivity_excl.csv,медианы 10.79 / 5.68; q=0.0014
+R315,sensitivity,excl_nondim_p20_dim_choice_cliffs_delta,0.0213,-0.211–0.256,,analysis/sensitivity_excl.csv,медианы 0.44 / 0.43; q=0.8572
+R316,sensitivity,no_name_dim_per_1000w_cliffs_delta,0.309,,,"расчёт 21.10 (candidates v3.1, name == 0)",без DIM с атрибутом name; медианы 24.1 / 14.8; MW p=0.0035
+R317,keyness,kidlit_keywords_positive,1098,,,keyness/keyness_report.md,
+R318,keyness,kidlit_keywords_negative,140,,,keyness/keyness_report.md,
+R319,keyness,rus_o_keywords_ll,24,,,keyness/keyness_report.md,12 устойчивы на уровне книг
+R320,keyness,rus_t_keywords_ll,45,,,keyness/keyness_report.md,0 устойчивы на уровне книг
+R321,collocations,size_все_per100_dim,2.2005,,117/5317,analysis/pleonasm.csv,
+R322,collocations,size_все_per100_base,0.3589,,60/16718,analysis/pleonasm.csv,
+R323,collocations,size_все_per100_other,0.6493,,163/25104,analysis/pleonasm.csv,
+R324,collocations,size_все_OR_dim_vs_base,6.2467,,,analysis/pleonasm.csv,Fisher p=2.33e-32
+R325,collocations,big_все_per100_dim,0.1881,,10/5317,analysis/pleonasm.csv,
+R326,collocations,big_все_per100_base,0.6819,,114/16718,analysis/pleonasm.csv,
+R327,collocations,big_все_per100_other,0.4183,,105/25104,analysis/pleonasm.csv,
+R328,collocations,big_все_OR_dim_vs_base,0.2744,,,analysis/pleonasm.csv,Fisher p=4.54e-06
+R329,collocations,size_RUS-O_per100_dim,1.8698,,83/4439,analysis/pleonasm.csv,
+R330,collocations,size_RUS-O_per100_base,0.3085,,40/12965,analysis/pleonasm.csv,
+R331,collocations,size_RUS-O_per100_other,0.6122,,113/18458,analysis/pleonasm.csv,
+R332,collocations,size_RUS-O_OR_dim_vs_base,6.1569,,,analysis/pleonasm.csv,Fisher p=1.3e-22
+R333,collocations,big_RUS-O_per100_dim,0.1352,,6/4439,analysis/pleonasm.csv,
+R334,collocations,big_RUS-O_per100_base,0.6556,,85/12965,analysis/pleonasm.csv,
+R335,collocations,big_RUS-O_per100_other,0.4009,,74/18458,analysis/pleonasm.csv,
+R336,collocations,big_RUS-O_OR_dim_vs_base,0.2051,,,analysis/pleonasm.csv,Fisher p=5.1e-06
+R337,collocations,size_RUS-T_per100_dim,3.8724,,34/878,analysis/pleonasm.csv,
+R338,collocations,size_RUS-T_per100_base,0.5329,,20/3753,analysis/pleonasm.csv,
+R339,collocations,size_RUS-T_per100_other,0.7523,,50/6646,analysis/pleonasm.csv,
+R340,collocations,size_RUS-T_OR_dim_vs_base,7.5191,,,analysis/pleonasm.csv,Fisher p=1.04e-12
+R341,collocations,big_RUS-T_per100_dim,0.4556,,4/878,analysis/pleonasm.csv,
+R342,collocations,big_RUS-T_per100_base,0.7727,,29/3753,analysis/pleonasm.csv,
+R343,collocations,big_RUS-T_per100_other,0.4664,,31/6646,analysis/pleonasm.csv,
+R344,collocations,big_RUS-T_OR_dim_vs_base,0.5877,,,analysis/pleonasm.csv,Fisher p=0.38
+R345,collocations,size_dim_minus_base_boot_ci_all,,1.20…2.68,,analysis/pleonasm.csv,
+R346,collocations,address_share_RUS-O,0.0354,,157/4439,analysis/address.csv,эвристика; 24–26 из 30 срабатываний верны
+R347,collocations,address_share_RUS-T,0.0672,,59/878,analysis/address.csv,эвристика; 24–26 из 30 срабатываний верны
+R348,collocations,address_OR_O_vs_T,0.509,,,analysis/address.csv,Fisher p=4.78e-05
+R349,gold_link,sentiment_disagreement_rate_dim_sent,0.3398,,362,analysis/sentiment_iaa_dim.csv,ЗАМЕНЕНО: см. gold30 (κ по двойной разметке); старая оценка по логу
+R350,gold_link,sentiment_disagreement_rate_nodim_sent,0.366,,1388,analysis/sentiment_iaa_dim.csv,
+R351,gold_link,sentiment_disagreement_OR,0.8915,,,analysis/sentiment_iaa_dim.csv,Fisher p=0.39; Wilcoxon по книгам p=1
+R352,gold_link,sentiment_pos_share_dim_все,0.266,,1504,analysis/sentiment_dim.csv,"Label Studio, одна разметчица"
+R353,gold_link,sentiment_pos_share_nodim_все,0.2855,,6354,analysis/sentiment_dim.csv,
+R354,gold_link,sentiment_neu_share_dim_все,0.5705,,1504,analysis/sentiment_dim.csv,"Label Studio, одна разметчица"
+R355,gold_link,sentiment_neu_share_nodim_все,0.5083,,6354,analysis/sentiment_dim.csv,
+R356,gold_link,sentiment_neg_share_dim_все,0.1636,,1504,analysis/sentiment_dim.csv,"Label Studio, одна разметчица"
+R357,gold_link,sentiment_neg_share_nodim_все,0.2062,,6354,analysis/sentiment_dim.csv,
+R358,gold_link,sentiment_OR_pos_все,0.9068,,,analysis/sentiment_dim.csv,Fisher p=0.134
+R359,gold_link,sentiment_OR_neg_все,0.7529,,,analysis/sentiment_dim.csv,Fisher p=0.000157
+R360,gold_link,sentiment_pos_share_dim_RUS-O,0.2615,,1170,analysis/sentiment_dim.csv,"Label Studio, одна разметчица"
+R361,gold_link,sentiment_pos_share_nodim_RUS-O,0.2876,,4507,analysis/sentiment_dim.csv,
+R362,gold_link,sentiment_neu_share_dim_RUS-O,0.5667,,1170,analysis/sentiment_dim.csv,"Label Studio, одна разметчица"
+R363,gold_link,sentiment_neu_share_nodim_RUS-O,0.4837,,4507,analysis/sentiment_dim.csv,
+R364,gold_link,sentiment_neg_share_dim_RUS-O,0.1718,,1170,analysis/sentiment_dim.csv,"Label Studio, одна разметчица"
+R365,gold_link,sentiment_neg_share_nodim_RUS-O,0.2288,,4507,analysis/sentiment_dim.csv,
+R366,gold_link,sentiment_OR_pos_RUS-O,0.8775,,,analysis/sentiment_dim.csv,Fisher p=0.0802
+R367,gold_link,sentiment_OR_neg_RUS-O,0.6993,,,analysis/sentiment_dim.csv,Fisher p=2.01e-05
+R368,gold_link,sentiment_pos_share_dim_RUS-T,0.2814,,334,analysis/sentiment_dim.csv,"Label Studio, одна разметчица"
+R369,gold_link,sentiment_pos_share_nodim_RUS-T,0.2805,,1847,analysis/sentiment_dim.csv,
+R370,gold_link,sentiment_neu_share_dim_RUS-T,0.5838,,334,analysis/sentiment_dim.csv,"Label Studio, одна разметчица"
+R371,gold_link,sentiment_neu_share_nodim_RUS-T,0.5685,,1847,analysis/sentiment_dim.csv,
+R372,gold_link,sentiment_neg_share_dim_RUS-T,0.1347,,334,analysis/sentiment_dim.csv,"Label Studio, одна разметчица"
+R373,gold_link,sentiment_neg_share_nodim_RUS-T,0.1511,,1847,analysis/sentiment_dim.csv,
+R374,gold_link,sentiment_OR_pos_RUS-T,1.0049,,,analysis/sentiment_dim.csv,Fisher p=1
+R375,gold_link,sentiment_OR_neg_RUS-T,0.8751,,,analysis/sentiment_dim.csv,Fisher p=0.504
+R376,gold_link,sentiment_books,32,,,analysis/goldlink_report.md,"RUS-O 15, RUS-T 17"
+R377,gold_link,sentiment_logit_pos_has_dim_OR,0.9808,0.74…1.31,,analysis/sentiment_dim.csv,кластеры по книгам; p=0.894
+R378,gold_link,sentiment_logit_neg_has_dim_OR,0.7529,0.58…0.99,,analysis/sentiment_dim.csv,кластеры по книгам; p=0.0385
+R379,gold_link,sentiment_boot_pos_diff,,-0.075…0.036,,analysis/sentiment_dim.csv,
+R380,gold_link,ner_PER_NAME_dim_share_RUS-O,0.0795,,1584,analysis/ner_dim.csv,
+R381,gold_link,ner_PER_NAME_book_median_RUS-O,0.0,,,analysis/ner_dim.csv,
+R382,gold_link,ner_PER_NAME_dim_share_RUS-T,0.06,,834,analysis/ner_dim.csv,
+R383,gold_link,ner_PER_NAME_book_median_RUS-T,0.0,,,analysis/ner_dim.csv,
+R384,gold_link,ner_PER_NAME_OR_O_vs_T,1.3551,,,analysis/ner_dim.csv,Fisher p=0.0838; MW по книгам p=0.369
+R385,gold_link,ner_PER_ROLE_dim_share_RUS-O,0.1903,,4099,analysis/ner_dim.csv,
+R386,gold_link,ner_PER_ROLE_book_median_RUS-O,0.1041,,,analysis/ner_dim.csv,
+R387,gold_link,ner_PER_ROLE_dim_share_RUS-T,0.0553,,1484,analysis/ner_dim.csv,
+R388,gold_link,ner_PER_ROLE_book_median_RUS-T,0.027,,,analysis/ner_dim.csv,
+R389,gold_link,ner_PER_ROLE_OR_O_vs_T,4.0181,,,analysis/ner_dim.csv,Fisher p=6.15e-41; MW по книгам p=0.0278
+R390,gold_link,ner_PER_FAMILY_dim_share_RUS-O,0.0973,,1336,analysis/ner_dim.csv,
+R391,gold_link,ner_PER_FAMILY_book_median_RUS-O,0.0476,,,analysis/ner_dim.csv,
+R392,gold_link,ner_PER_FAMILY_dim_share_RUS-T,0.0667,,600,analysis/ner_dim.csv,
+R393,gold_link,ner_PER_FAMILY_book_median_RUS-T,0.0,,,analysis/ner_dim.csv,
+R394,gold_link,ner_PER_FAMILY_OR_O_vs_T,1.5091,,,analysis/ner_dim.csv,Fisher p=0.0297; MW по книгам p=0.291
+R395,gold_link,ner_все_dim_share_RUS-O,0.1476,,7019,analysis/ner_dim.csv,
+R396,gold_link,ner_все_book_median_RUS-O,0.0735,,,analysis/ner_dim.csv,
+R397,gold_link,ner_все_dim_share_RUS-T,0.0589,,2918,analysis/ner_dim.csv,
+R398,gold_link,ner_все_book_median_RUS-T,0.038,,,analysis/ner_dim.csv,
+R399,gold_link,ner_все_OR_O_vs_T,2.7645,,,analysis/ner_dim.csv,Fisher p=5.84e-39; MW по книгам p=0.0304
+R400,gold30,sentiment_kappa_all_все,0.536,,3357,analysis/gold30_sentiment_iaa.csv,
+R401,gold30,sentiment_kappa_dim_все,0.4564,,612,analysis/gold30_sentiment_iaa.csv,
+R402,gold30,sentiment_kappa_nodim_все,0.5513,,2745,analysis/gold30_sentiment_iaa.csv,
+R403,gold30,sentiment_kappa_all_RUS-O,0.5625,,1974,analysis/gold30_sentiment_iaa.csv,
+R404,gold30,sentiment_kappa_dim_RUS-O,0.4985,,410,analysis/gold30_sentiment_iaa.csv,
+R405,gold30,sentiment_kappa_nodim_RUS-O,0.5757,,1564,analysis/gold30_sentiment_iaa.csv,
+R406,gold30,sentiment_kappa_all_RUS-T,0.4982,,1383,analysis/gold30_sentiment_iaa.csv,
+R407,gold30,sentiment_kappa_dim_RUS-T,0.3749,,202,analysis/gold30_sentiment_iaa.csv,
+R408,gold30,sentiment_kappa_nodim_RUS-T,0.519,,1181,analysis/gold30_sentiment_iaa.csv,
+R409,gold30,sentiment_kappa_dim_minus_nodim_boot,,-0.159…-0.028,,analysis/gold30_sentiment_iaa.csv,
+R410,gold30,sentiment_pos_dim_A,0.3964,,613,analysis/gold30_sentiment_dim.csv,
+R411,gold30,sentiment_pos_nodim_A,0.3444,,2747,analysis/gold30_sentiment_dim.csv,
+R412,gold30,sentiment_neu_dim_A,0.4095,,613,analysis/gold30_sentiment_dim.csv,
+R413,gold30,sentiment_neu_nodim_A,0.3589,,2747,analysis/gold30_sentiment_dim.csv,
+R414,gold30,sentiment_neg_dim_A,0.1941,,613,analysis/gold30_sentiment_dim.csv,
+R415,gold30,sentiment_neg_nodim_A,0.2967,,2747,analysis/gold30_sentiment_dim.csv,
+R416,gold30,sentiment_OR_pos_A,1.2393,0.97…1.59,,analysis/gold30_sentiment_dim.csv,p=0.09; кластеры по книгам
+R417,gold30,sentiment_OR_neg_A,0.5882,0.43…0.81,,analysis/gold30_sentiment_dim.csv,p=0.00108; кластеры по книгам
+R418,gold30,sentiment_pos_dim_B,0.2631,,612,analysis/gold30_sentiment_dim.csv,
+R419,gold30,sentiment_pos_nodim_B,0.2787,,2745,analysis/gold30_sentiment_dim.csv,
+R420,gold30,sentiment_neu_dim_B,0.5768,,612,analysis/gold30_sentiment_dim.csv,
+R421,gold30,sentiment_neu_nodim_B,0.4794,,2745,analysis/gold30_sentiment_dim.csv,
+R422,gold30,sentiment_neg_dim_B,0.1601,,612,analysis/gold30_sentiment_dim.csv,
+R423,gold30,sentiment_neg_nodim_B,0.2419,,2745,analysis/gold30_sentiment_dim.csv,
+R424,gold30,sentiment_OR_pos_B,0.9553,0.72…1.27,,analysis/gold30_sentiment_dim.csv,p=0.755; кластеры по книгам
+R425,gold30,sentiment_OR_neg_B,0.6293,0.47…0.84,,analysis/gold30_sentiment_dim.csv,p=0.00147; кластеры по книгам
+R426,gold30,sentiment_pos_dim_agreed,0.3151,,403,analysis/gold30_sentiment_dim.csv,
+R427,gold30,sentiment_pos_nodim_agreed,0.3069,,1932,analysis/gold30_sentiment_dim.csv,
+R428,gold30,sentiment_neu_dim_agreed,0.5012,,403,analysis/gold30_sentiment_dim.csv,
+R429,gold30,sentiment_neu_nodim_agreed,0.4017,,1932,analysis/gold30_sentiment_dim.csv,
+R430,gold30,sentiment_neg_dim_agreed,0.1836,,403,analysis/gold30_sentiment_dim.csv,
+R431,gold30,sentiment_neg_nodim_agreed,0.2914,,1932,analysis/gold30_sentiment_dim.csv,
+R432,gold30,sentiment_OR_pos_agreed,1.0818,0.77…1.52,,analysis/gold30_sentiment_dim.csv,p=0.651; кластеры по книгам
+R433,gold30,sentiment_OR_neg_agreed,0.5611,0.36…0.87,,analysis/gold30_sentiment_dim.csv,p=0.00914; кластеры по книгам
+R434,gold30,sentiment_pos_dim_gold_10books,0.3598,,353,analysis/gold30_sentiment_dim.csv,
+R435,gold30,sentiment_pos_nodim_gold_10books,0.3132,,1344,analysis/gold30_sentiment_dim.csv,
+R436,gold30,sentiment_neu_dim_gold_10books,0.4646,,353,analysis/gold30_sentiment_dim.csv,
+R437,gold30,sentiment_neu_nodim_gold_10books,0.4025,,1344,analysis/gold30_sentiment_dim.csv,
+R438,gold30,sentiment_neg_dim_gold_10books,0.1756,,353,analysis/gold30_sentiment_dim.csv,
+R439,gold30,sentiment_neg_nodim_gold_10books,0.2842,,1344,analysis/gold30_sentiment_dim.csv,
+R440,gold30,sentiment_OR_pos_gold_10books,1.1101,0.77…1.60,,analysis/gold30_sentiment_dim.csv,p=0.579; кластеры по книгам
+R441,gold30,sentiment_OR_neg_gold_10books,0.5606,0.34…0.92,,analysis/gold30_sentiment_dim.csv,p=0.0224; кластеры по книгам
+R442,gold30,log_resolved_share_10books,0.887,,416/469,analysis/gold30_log_coverage.csv,
+R443,gold30,ner_F1_AB_all,0.8264,,,analysis/gold30_ner_dim.csv,точные границы + метка
+R444,gold30,ner_F1_AB_dim,0.8994,,,analysis/gold30_ner_dim.csv,
+R445,gold30,ner_F1_AB_nodim,0.8166,,,analysis/gold30_ner_dim.csv,
+R446,gold30,ner_A_PER_NAME_dim_share_RUS-O,0.0485,,330,analysis/gold30_ner_dim.csv,
+R447,gold30,ner_A_PER_NAME_dim_share_RUS-T,0.1367,,256,analysis/gold30_ner_dim.csv,
+R448,gold30,ner_A_PER_NAME_OR_O_vs_T,0.3217,,,analysis/gold30_ner_dim.csv,Fisher p=0.000195; MW по книгам p=0.732
+R449,gold30,ner_A_PER_ROLE_dim_share_RUS-O,0.2049,,893,analysis/gold30_ner_dim.csv,
+R450,gold30,ner_A_PER_ROLE_dim_share_RUS-T,0.0769,,611,analysis/gold30_ner_dim.csv,
+R451,gold30,ner_A_PER_ROLE_OR_O_vs_T,3.093,,,analysis/gold30_ner_dim.csv,Fisher p=3.67e-12; MW по книгам p=0.129
+R452,gold30,ner_A_PER_FAMILY_dim_share_RUS-O,0.0637,,204,analysis/gold30_ner_dim.csv,
+R453,gold30,ner_A_PER_FAMILY_dim_share_RUS-T,0.0896,,268,analysis/gold30_ner_dim.csv,
+R454,gold30,ner_A_PER_FAMILY_OR_O_vs_T,0.692,,,analysis/gold30_ner_dim.csv,Fisher p=0.388; MW по книгам p=0.343
+R455,gold30,ner_A_все_dim_share_RUS-O,0.1486,,1427,analysis/gold30_ner_dim.csv,
+R456,gold30,ner_A_все_dim_share_RUS-T,0.0934,,1135,analysis/gold30_ner_dim.csv,
+R457,gold30,ner_A_все_OR_O_vs_T,1.6938,,,analysis/gold30_ner_dim.csv,Fisher p=2.32e-05; MW по книгам p=0.0739
+R458,gold30,ner_B_PER_NAME_dim_share_RUS-O,0.0463,,324,analysis/gold30_ner_dim.csv,
+R459,gold30,ner_B_PER_NAME_dim_share_RUS-T,0.1136,,308,analysis/gold30_ner_dim.csv,
+R460,gold30,ner_B_PER_NAME_OR_O_vs_T,0.3786,,,analysis/gold30_ner_dim.csv,Fisher p=0.00185; MW по книгам p=0.938
+R461,gold30,ner_B_PER_ROLE_dim_share_RUS-O,0.1824,,1014,analysis/gold30_ner_dim.csv,
+R462,gold30,ner_B_PER_ROLE_dim_share_RUS-T,0.0655,,656,analysis/gold30_ner_dim.csv,
+R463,gold30,ner_B_PER_ROLE_OR_O_vs_T,3.1813,,,analysis/gold30_ner_dim.csv,Fisher p=2.04e-12; MW по книгам p=0.201
+R464,gold30,ner_B_PER_FAMILY_dim_share_RUS-O,0.0644,,202,analysis/gold30_ner_dim.csv,
+R465,gold30,ner_B_PER_FAMILY_dim_share_RUS-T,0.0964,,280,analysis/gold30_ner_dim.csv,
+R466,gold30,ner_B_PER_FAMILY_OR_O_vs_T,0.6445,,,analysis/gold30_ner_dim.csv,Fisher p=0.243; MW по книгам p=0.343
+R467,gold30,ner_B_все_dim_share_RUS-O,0.1383,,1540,analysis/gold30_ner_dim.csv,
+R468,gold30,ner_B_все_dim_share_RUS-T,0.0844,,1244,analysis/gold30_ner_dim.csv,
+R469,gold30,ner_B_все_OR_O_vs_T,1.7412,,,analysis/gold30_ner_dim.csv,Fisher p=8.55e-06; MW по книгам p=0.0887
