@@ -1,0 +1,8 @@
+part,row_id,kidlit_id,sent_id,tok_id,token,label_A,base_A,comment_A,label_B,base_B,comment_B,final_label,final_base,precedent,decision_comment
+1,244,RUS-O_medium_05,23,5,грудка,,,,DIM,грудь,,LEX,грудь,P-04,
+1,478,RUS-O_medium_05,46,7,бедняжка,,,,DIM,бедняга,,DIM,бедняга,,
+1,597,RUS-T_short_03,8,9,Тедди,,,,HYP,Тед,,HYP,Тед,,
+1,927,RUS-T_short_03,65,0,Мышонку,YOUNG,мышь,,DIM,мышь,случайно использован тег DIM,YOUNG,мышь,,
+2,7,RUS-O_medium_05,5,5,крыльцом,NO,крыло,,DIM,мышь,"случайно вставлено ""мышь""",NO,крыльцо,,
+2,33,RUS-O_medium_05,23,5,грудка,NO,грудь,,DIM,грудь,,LEX,грудь,P-04,
+2,63,RUS-O_medium_05,46,7,бедняжка,LEX,бедняга,,DIM,бедняга,,DIM,бедняга,,
