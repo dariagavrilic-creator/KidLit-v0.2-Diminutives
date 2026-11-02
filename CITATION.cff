@@ -2,23 +2,23 @@ cff-version: 1.2.0
 message: "If you use these data or code, please cite the paper."
 title: "KidLit by Numbers: diminutives in Russian 0+ children's books (data and code)"
 authors:
-  - family-names: Gavrilik
-    given-names: Daria
-    orcid: "https://orcid.org/0009-0002-4410-1965"
-    affiliation: "Peter the Great St. Petersburg Polytechnic University"
-  - family-names: Pankova
-    given-names: Vasilisa
-    orcid: "https://orcid.org/0009-0002-6143-2766"
-    affiliation: "Peter the Great St. Petersburg Polytechnic University"
+  - family-names: [Anonymized Authors]
+    given-names: [Anonymized Authors]
+    orcid: [Anonymized Authors]
+    affiliation: [Anonymized Authors]
+  - family-names: [Anonymized Authors]
+    given-names: [Anonymized Authors]
+    orcid: [Anonymized Authors]
+    affiliation: [Anonymized Authors]
 license: MIT
 preferred-citation:
   type: article
   title: "KidLit by Numbers: Diminutives in Original and Translated Russian 0+ Books"
   authors:
-    - family-names: Gavrilik
-      given-names: Daria
-    - family-names: Pankova
-      given-names: Vasilisa
+    - family-names: [Anonymized Authors]
+      given-names: [Anonymized Authors]
+    - family-names: [Anonymized Authors]
+      given-names: [Anonymized Authors]
   journal: "Trudy ISP RAN / Proceedings of ISP RAS"
   year: 2026
   volume: 38
