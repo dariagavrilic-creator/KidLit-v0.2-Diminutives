@@ -1,0 +1,212 @@
+{
+  "step": "2.1",
+  "created": "2026-10-16",
+  "seed": 2026,
+  "selection_attempts": 1,
+  "detector_version": [
+    "v2"
+  ],
+  "candidates_sha256_16": "99e0fcc2b7bf7e48",
+  "pilot_books_dev": [
+    "RUS-O_medium_05",
+    "RUS-T_short_03"
+  ],
+  "excluded_books": [
+    "RUS-O_long_06",
+    "RUS-O_long_07",
+    "RUS-O_long_08",
+    "RUS-O_long_09",
+    "RUS-O_long_15",
+    "RUS-O_long_25",
+    "RUS-O_long_26",
+    "RUS-O_short_02",
+    "RUS-O_medium_01"
+  ],
+  "full_reading": {
+    "dev": [
+      "RUS-O_medium_05",
+      "RUS-T_short_03",
+      "RUS-O_long_01",
+      "RUS-T_long_05"
+    ],
+    "test": [
+      "RUS-O_long_03",
+      "RUS-O_medium_04",
+      "RUS-T_long_01",
+      "RUS-T_medium_02"
+    ]
+  },
+  "double_books": [
+    "RUS-T_long_05",
+    "RUS-O_medium_04"
+  ],
+  "own_books": {
+    "A": [
+      "RUS-O_long_01",
+      "RUS-T_medium_02"
+    ],
+    "B": [
+      "RUS-O_long_03",
+      "RUS-T_long_01"
+    ]
+  },
+  "candidate_pool": {
+    "dev": [
+      "RUS-O_long_04",
+      "RUS-O_long_10",
+      "RUS-O_long_11",
+      "RUS-O_long_13",
+      "RUS-O_long_14",
+      "RUS-O_long_16",
+      "RUS-O_long_17",
+      "RUS-O_long_18",
+      "RUS-O_long_20",
+      "RUS-O_long_21",
+      "RUS-O_long_22",
+      "RUS-O_long_27",
+      "RUS-O_long_31",
+      "RUS-O_long_35",
+      "RUS-O_medium_06",
+      "RUS-O_medium_10",
+      "RUS-O_medium_15",
+      "RUS-O_medium_18",
+      "RUS-O_medium_19",
+      "RUS-O_short_01",
+      "RUS-O_short_04",
+      "RUS-O_short_05",
+      "RUS-O_short_06",
+      "RUS-T_long_02",
+      "RUS-T_long_03",
+      "RUS-T_long_04",
+      "RUS-T_long_07",
+      "RUS-T_long_08",
+      "RUS-T_medium_04",
+      "RUS-T_medium_05",
+      "RUS-T_medium_07",
+      "RUS-T_medium_09",
+      "RUS-T_medium_11",
+      "RUS-T_medium_12",
+      "RUS-T_medium_14",
+      "RUS-T_medium_15",
+      "RUS-T_medium_16",
+      "RUS-T_medium_17",
+      "RUS-T_medium_18",
+      "RUS-T_medium_20",
+      "RUS-T_medium_25",
+      "RUS-T_short_04",
+      "RUS-T_short_07",
+      "RUS-T_short_09",
+      "RUS-T_short_13",
+      "RUS-T_short_15",
+      "RUS-T_short_16",
+      "RUS-T_short_17",
+      "RUS-T_short_20",
+      "RUS-T_short_21",
+      "RUS-T_short_22"
+    ],
+    "test": [
+      "RUS-O_long_02",
+      "RUS-O_long_05",
+      "RUS-O_long_12",
+      "RUS-O_long_19",
+      "RUS-O_long_23",
+      "RUS-O_long_24",
+      "RUS-O_long_28",
+      "RUS-O_long_29",
+      "RUS-O_long_30",
+      "RUS-O_long_32",
+      "RUS-O_long_33",
+      "RUS-O_long_34",
+      "RUS-O_medium_02",
+      "RUS-O_medium_03",
+      "RUS-O_medium_07",
+      "RUS-O_medium_08",
+      "RUS-O_medium_09",
+      "RUS-O_medium_11",
+      "RUS-O_medium_12",
+      "RUS-O_medium_13",
+      "RUS-O_medium_14",
+      "RUS-O_medium_16",
+      "RUS-O_medium_17",
+      "RUS-O_short_03",
+      "RUS-T_long_06",
+      "RUS-T_long_09",
+      "RUS-T_long_10",
+      "RUS-T_medium_01",
+      "RUS-T_medium_03",
+      "RUS-T_medium_06",
+      "RUS-T_medium_08",
+      "RUS-T_medium_10",
+      "RUS-T_medium_13",
+      "RUS-T_medium_19",
+      "RUS-T_medium_21",
+      "RUS-T_medium_22",
+      "RUS-T_medium_23",
+      "RUS-T_medium_24",
+      "RUS-T_medium_26",
+      "RUS-T_short_01",
+      "RUS-T_short_02",
+      "RUS-T_short_05",
+      "RUS-T_short_06",
+      "RUS-T_short_08",
+      "RUS-T_short_10",
+      "RUS-T_short_11",
+      "RUS-T_short_12",
+      "RUS-T_short_14",
+      "RUS-T_short_18",
+      "RUS-T_short_19",
+      "RUS-T_short_23",
+      "RUS-T_short_24"
+    ]
+  },
+  "quota_per_cell": {
+    "RUS-O": {
+      "DIM": 53,
+      "HYP": 5,
+      "LEX": 15,
+      "NO": 15,
+      "YOUNG": 12
+    },
+    "RUS-T": {
+      "DIM": 58,
+      "HYP": 0,
+      "LEX": 15,
+      "NO": 15,
+      "YOUNG": 12
+    }
+  },
+  "double_per_cell": 25,
+  "n_candidates_sampled": 400,
+  "n_double_candidates": 100,
+  "files": {
+    "A": {
+      "part1": "gold_A_part1_full_reading.xlsx",
+      "part1_books": [
+        "RUS-T_long_05",
+        "RUS-O_medium_04",
+        "RUS-O_long_01",
+        "RUS-T_medium_02"
+      ],
+      "part1_words": 4609,
+      "part2": "gold_A_part2_candidates.xlsx",
+      "part2_items": 252
+    },
+    "B": {
+      "part1": "gold_B_part1_full_reading.xlsx",
+      "part1_books": [
+        "RUS-T_long_05",
+        "RUS-O_medium_04",
+        "RUS-O_long_03",
+        "RUS-T_long_01"
+      ],
+      "part1_words": 4703,
+      "part2": "gold_B_part2_candidates.xlsx",
+      "part2_items": 248
+    }
+  },
+  "rules": [
+    "test full-reading: 1 long + 1 medium per group, >=1 verse book, RUS-O/RUS-T words ratio <= 1.5",
+    "candidate pool split by book within group (no book in both dev and test)",
+    "candidates stratified by detector label; per-label precision needs no weights; overall figures are weighted by candidate_strata_population.csv"
+  ]
+}

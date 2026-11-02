@@ -1,0 +1,121 @@
+kidlit_id,split,role,annotation,title,genre,n_words,n_candidates,det_DIM,n_sampled
+RUS-O_medium_05,dev,full_reading,уже размечена (пилот),Подарок для мышки,проза,532,71.0,49.0,
+RUS-T_short_03,dev,full_reading,уже размечена (пилот),Мышонок Тим капризничает,проза,468,32.0,10.0,
+RUS-O_long_01,dev,full_reading,A,"Обними меня! Сказка о том, как Обнимашка хотел спасти мир",проза,1600,107.0,21.0,
+RUS-O_long_03,test,full_reading,B,"Грузовик, прицеп и новогодняя елка",проза,1434,146.0,52.0,
+RUS-O_medium_04,test,full_reading,A+B,Едет мамин человечек,стихи,911,100.0,64.0,
+RUS-T_long_05,dev,full_reading,A+B,Мамино сокровище,проза,1198,90.0,58.0,
+RUS-T_long_01,test,full_reading,B,Как Лисенок встречал Новый год,проза,1160,91.0,12.0,
+RUS-T_medium_02,test,full_reading,A,Маленький вертолёт и смелость в сердце,проза,900,37.0,11.0,
+RUS-O_long_02,test,candidate_pool,,Детский сад на колёсиках,проза,2337,178.0,,6.0
+RUS-O_long_04,dev,candidate_pool,,Как же я люблю маму!,проза,1834,149.0,,2.0
+RUS-O_long_05,test,candidate_pool,,Лисья сказка,стихи,1340,101.0,,2.0
+RUS-O_long_10,dev,candidate_pool,,Сказки доброты,проза,4874,396.0,,11.0
+RUS-O_long_11,dev,candidate_pool,,Фасольки и друзья,проза,9962,923.0,,19.0
+RUS-O_long_12,test,candidate_pool,,Где водятся тракторозавры?,проза,2869,205.0,,10.0
+RUS-O_long_13,dev,candidate_pool,,Любимая семья лисёнка Елисея,проза,3114,353.0,,10.0
+RUS-O_long_14,dev,candidate_pool,,Енотик находит друзей,проза,3382,432.0,,14.0
+RUS-O_long_16,dev,candidate_pool,,Пони Фиалка и волшебный колодец Сказка о доброте,проза,1474,106.0,,4.0
+RUS-O_long_17,dev,candidate_pool,,Сказки Маленького Лисёнка,проза,3255,191.0,,2.0
+RUS-O_long_18,dev,candidate_pool,,Приключения Джипчика,проза,2705,222.0,,4.0
+RUS-O_long_19,test,candidate_pool,,Чай с росой и земляникой,проза,2272,174.0,,6.0
+RUS-O_long_20,dev,candidate_pool,,"Лосёнок Вася, медвежонок Потап и Великая Сосна",проза,2014,113.0,,4.0
+RUS-O_long_21,dev,candidate_pool,,Би! Бо! Бу! Сонная история,проза,1688,86.0,,4.0
+RUS-O_long_22,dev,candidate_pool,,Маленькая лесная сказка,проза,1197,128.0,,2.0
+RUS-O_long_23,test,candidate_pool,,Детский сад на колёсиках. Средняя группа,проза,3195,222.0,,8.0
+RUS-O_long_24,test,candidate_pool,,Когда твоя мама волшебница,проза,3641,223.0,,10.0
+RUS-O_long_27,dev,candidate_pool,,Софи и малыш. Второй ребёнок в семье,проза,4866,394.0,,13.0
+RUS-O_long_28,test,candidate_pool,,Уважаемая фея,стихи,1901,214.0,,4.0
+RUS-O_long_29,test,candidate_pool,,А вот и бегемот!,проза,1570,42.0,,2.0
+RUS-O_long_30,test,candidate_pool,,Жили-были прищепки,проза,1214,172.0,,2.0
+RUS-O_long_31,dev,candidate_pool,,Почему у льва большая грива,проза,2636,202.0,,3.0
+RUS-O_long_32,test,candidate_pool,,Лёгкий слон,проза,3802,85.0,,5.0
+RUS-O_long_33,test,candidate_pool,,Давай вернём солнце!,проза,1605,56.0,,4.0
+RUS-O_long_34,test,candidate_pool,,Зайчонок Кекс спасает праздник,проза,2581,217.0,,9.0
+RUS-O_long_35,dev,candidate_pool,,Пуговка и Топотуль,проза,2095,218.0,,4.0
+RUS-O_medium_02,test,candidate_pool,,"Кораблик, который хотел летать",проза,630,76.0,,2.0
+RUS-O_medium_03,test,candidate_pool,,"Принц Филипп и добрый друг-шарик: Что делать, если потерял друга",проза,601,42.0,,2.0
+RUS-O_medium_06,dev,candidate_pool,,Принц Филипп и самая высокая ракета: Побеждаем страх неудачи,проза,787,47.0,,0.0
+RUS-O_medium_07,test,candidate_pool,,Верхом на облаке,проза,601,79.0,,4.0
+RUS-O_medium_08,test,candidate_pool,,Как непослушная мама сон потеряла,,606,33.0,,1.0
+RUS-O_medium_09,test,candidate_pool,,Мой папа самый лучший,проза,973,74.0,,3.0
+RUS-O_medium_10,dev,candidate_pool,,Приключения снегиря в Африке. Полезные сказки.,проза,657,27.0,,1.0
+RUS-O_medium_11,test,candidate_pool,,Ашуни. Сказка с рябиновой ветки,проза,624,50.0,,2.0
+RUS-O_medium_12,test,candidate_pool,,Поросенок Петр и сказочная башня,проза,577,57.0,,1.0
+RUS-O_medium_13,test,candidate_pool,,Рыжая долина,проза,688,31.0,,1.0
+RUS-O_medium_14,test,candidate_pool,,Самый счастливый дом,проза,741,54.0,,7.0
+RUS-O_medium_15,dev,candidate_pool,,Болтливая сорока,проза,647,72.0,,0.0
+RUS-O_medium_16,test,candidate_pool,,Клубок в рыжую крапинку. Сказка из магазина шерсти,проза,848,109.0,,3.0
+RUS-O_medium_17,test,candidate_pool,,Тропинки Никиты,проза,953,90.0,,3.0
+RUS-O_medium_18,dev,candidate_pool,,Дикая кладь,стихи,901,67.0,,1.0
+RUS-O_medium_19,dev,candidate_pool,,Давайте жить дружно!,проза,631,57.0,,1.0
+RUS-O_short_01,dev,candidate_pool,,Добрая акула,проза,408,13.0,,1.0
+RUS-O_short_03,test,candidate_pool,,"Жёлтый, Красный, Синий и другие",проза,458,19.0,,3.0
+RUS-O_short_04,dev,candidate_pool,,Весёлый пожарный,проза,565,22.0,,0.0
+RUS-O_short_05,dev,candidate_pool,,Оркестр маленьких жучков,стихи,193,25.0,,0.0
+RUS-O_short_06,dev,candidate_pool,,Как Домик искал Хозяина,проза,363,24.0,,0.0
+RUS-T_long_02,dev,candidate_pool,,Счастливый день с папой,проза,1354,72.0,,5.0
+RUS-T_long_03,dev,candidate_pool,,Маленький красный трактор и секрет настоящего счастья,проза,1224,53.0,,3.0
+RUS-T_long_04,dev,candidate_pool,,Счастье кота Феличе,проза,1253,63.0,,5.0
+RUS-T_long_06,test,candidate_pool,,Якоб учится самостоятельности. 10 историй в одной книге,проза,3850,235.0,,19.0
+RUS-T_long_07,dev,candidate_pool,,Маленький красный автобус,проза,1008,51.0,,3.0
+RUS-T_long_08,dev,candidate_pool,,Фу!,проза,3096,220.0,,16.0
+RUS-T_long_09,test,candidate_pool,,Ты останешься моим другом?,проза,1077,81.0,,2.0
+RUS-T_long_10,test,candidate_pool,,Зачем тигрёнку полоски?,проза,1141,119.0,,11.0
+RUS-T_medium_01,test,candidate_pool,,Когда я злюсь,проза,696,25.0,,1.0
+RUS-T_medium_03,test,candidate_pool,,Музей  чудо-машин,проза,534,10.0,,1.0
+RUS-T_medium_04,dev,candidate_pool,,Принц и Свинтус,стихи,515,50.0,,5.0
+RUS-T_medium_05,dev,candidate_pool,,Когда наступит Новый год?,проза,748,92.0,,6.0
+RUS-T_medium_06,test,candidate_pool,,Робкий слонёнок. Быть как все,проза,620,15.0,,0.0
+RUS-T_medium_07,dev,candidate_pool,,Один день в аэропорту,проза,570,27.0,,1.0
+RUS-T_medium_08,test,candidate_pool,,Один день на поезде,проза,570,34.0,,1.0
+RUS-T_medium_09,dev,candidate_pool,,Скупер и Дампер,проза,618,13.0,,0.0
+RUS-T_medium_10,test,candidate_pool,,Маленький красный трактор и беспокойные соседи,проза,702,51.0,,4.0
+RUS-T_medium_11,dev,candidate_pool,,"Мама, как же ты будешь дальше любить меня?",проза,783,92.0,,7.0
+RUS-T_medium_12,dev,candidate_pool,,Мамина улыбка,проза,810,92.0,,6.0
+RUS-T_medium_13,test,candidate_pool,,Папы-мишки никогда нет рядом,проза,660,70.0,,7.0
+RUS-T_medium_14,dev,candidate_pool,,Любви хватит на двоих,проза,621,113.0,,7.0
+RUS-T_medium_15,dev,candidate_pool,,Я люблю тебя всем сердцем,проза,579,53.0,,5.0
+RUS-T_medium_16,dev,candidate_pool,,Волшебная сказка о хвосте русалочки,проза,505,22.0,,0.0
+RUS-T_medium_17,dev,candidate_pool,,Зачем быть честным? Усик и одна маленькая ложь,проза,884,97.0,,5.0
+RUS-T_medium_18,dev,candidate_pool,,Я не люблю книжки. Вообще. Вот совсем. И точка.,проза,523,48.0,,3.0
+RUS-T_medium_19,test,candidate_pool,,Настоящая бабушка,проза,723,76.0,,5.0
+RUS-T_medium_20,dev,candidate_pool,,Почитай мне книжку!,проза,851,55.0,,8.0
+RUS-T_medium_21,test,candidate_pool,,Как мыши в поход ходили,проза,854,58.0,,4.0
+RUS-T_medium_22,test,candidate_pool,,Лето мишки Бруно,проза,600,63.0,,8.0
+RUS-T_medium_23,test,candidate_pool,,Книжный кот,проза,778,50.0,,5.0
+RUS-T_medium_24,test,candidate_pool,,Самый преКРЯсный день,проза,667,62.0,,5.0
+RUS-T_medium_25,dev,candidate_pool,,Дикие соседи,проза,749,83.0,,6.0
+RUS-T_medium_26,test,candidate_pool,,Почему медведь так смотрит?,проза,595,20.0,,2.0
+RUS-T_short_01,test,candidate_pool,,Дом,проза,441,21.0,,2.0
+RUS-T_short_02,test,candidate_pool,,Самая любимая мама. Стихи для детей,стихи,305,25.0,,2.0
+RUS-T_short_04,dev,candidate_pool,,Бабушка и птица,проза,374,34.0,,5.0
+RUS-T_short_05,test,candidate_pool,,Большое путешествие Горошка,проза,258,18.0,,2.0
+RUS-T_short_06,test,candidate_pool,,Мышонок Тим едет к бабушке : сказка,проза,447,54.0,,4.0
+RUS-T_short_07,dev,candidate_pool,,Где же наш грузовичок?,стихи,157,10.0,,0.0
+RUS-T_short_08,test,candidate_pool,,Полный порядок,стихи,235,21.0,,4.0
+RUS-T_short_09,dev,candidate_pool,,Песня маленького филина,стихи,489,12.0,,1.0
+RUS-T_short_10,test,candidate_pool,,Новый год и самый лучший папа,проза,355,36.0,,5.0
+RUS-T_short_11,test,candidate_pool,,Стройка с самого утра,стихи,417,15.0,,0.0
+RUS-T_short_12,test,candidate_pool,,"Спокойной ночи, экскаватор!",стихи,227,8.0,,0.0
+RUS-T_short_13,dev,candidate_pool,,Где медведь?,проза,87,3.0,,0.0
+RUS-T_short_14,test,candidate_pool,,Котёнок Шмяк — маленький почтальон,проза,474,33.0,,0.0
+RUS-T_short_15,dev,candidate_pool,,Уроки льва,проза,342,17.0,,1.0
+RUS-T_short_16,dev,candidate_pool,,Папа онлайн,проза,471,14.0,,0.0
+RUS-T_short_17,dev,candidate_pool,,Теперь и навсегда,проза,402,17.0,,0.0
+RUS-T_short_18,test,candidate_pool,,Малыш Ти-рекс и невероятные объятия,проза,344,30.0,,3.0
+RUS-T_short_19,test,candidate_pool,,Медвежонок,проза,166,21.0,,1.0
+RUS-T_short_20,dev,candidate_pool,,Моя бабушка – супер!,проза,84,11.0,,1.0
+RUS-T_short_21,dev,candidate_pool,,Зигги и лунное представление,проза,414,25.0,,1.0
+RUS-T_short_22,dev,candidate_pool,,Прятки,проза,153,5.0,,0.0
+RUS-T_short_23,test,candidate_pool,,Белый лис,проза,430,9.0,,0.0
+RUS-T_short_24,test,candidate_pool,,Весна медвежонка,проза,456,54.0,,2.0
+RUS-O_long_06,—,excluded (контрольные примеры),,В сонном-сонном лесу…,,6605,,,
+RUS-O_long_07,—,excluded (контрольные примеры),,Лапин. Зима белого кролика,,10504,,,
+RUS-O_long_08,—,excluded (контрольные примеры),,Прицеп спасает грузовик,,2225,,,
+RUS-O_long_09,—,excluded (контрольные примеры),,Новогодние сказки про Машу и Ойку,,4280,,,
+RUS-O_long_15,—,excluded (контрольные примеры),,Мой любимый папочка,,4985,,,
+RUS-O_long_25,—,excluded (контрольные примеры),,Клубника бегает трусцой,,11654,,,
+RUS-O_long_26,—,excluded (контрольные примеры),,На что ловятся котофеечки,,1249,,,
+RUS-O_short_02,—,excluded (контрольные примеры),,Как лисичка у зайчика морковку воровала. История лесных зверей,,464,,,
+RUS-O_medium_01,—,excluded (контрольные примеры),,Автомобильчик,,845,,,
