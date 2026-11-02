@@ -1,0 +1,31 @@
+lemma,key_pos,sem_class,unsure,comment,table
+полянка,s,природа и погода,,,kidlit_vs_ref_top100
+отец,s,семья и люди,,,rus_o_vs_rus_t_keywords
+ура,intj,"эмоции, оценка, отношения",,,kidlit_vs_ref_top100
+пещера,s,игрушки и игры,,,rus_o_vs_rus_t_keywords
+лягушка,s,животные,,,kidlit_vs_ref_top100
+качели,s,игрушки и игры,,,kidlit_vs_ref_top100
+зайчонок,s,животные,,,kidlit_vs_ref_top100
+машинка,s,действия и движение,,,kidlit_vs_ref_top100
+прыгать,v,действия и движение,,,kidlit_vs_ref_top100
+змея,s,животные,,,rus_o_vs_rus_t_keywords
+бабушка,s,семья и люди,,,kidlit_vs_ref_top100
+забор,s,дом и быт,,,rus_o_vs_rus_t_keywords
+поиграть,v,игрушки и игры,,,kidlit_vs_ref_top100
+спать,v,действия и движение,,,kidlit_vs_ref_top100
+малыш,s,прочее,,,kidlit_vs_ref_top100
+сад,s,время и место,,,kidlit_vs_ref_top100
+медвежонок,s,животные,,,kidlit_vs_ref_top100
+зелёный,a,прочее,,,rus_o_vs_rus_t_keywords
+ты,spro,грамматическое слово,,,kidlit_vs_ref_top100
+кролик,s,животные,,,rus_o_vs_rus_t_keywords
+трактор,s,транспорт и техника,,,kidlit_vs_ref_top100
+лис,s,животные,,,kidlit_vs_ref_top100
+прекрасный,a,"эмоции, оценка, отношения",,,rus_o_vs_rus_t_keywords
+ёлка,s,природа и погода,,,kidlit_vs_ref_top100
+страна,s,время и место,,,rus_o_vs_rus_t_keywords
+сыр,s,еда и напитки,,,rus_o_vs_rus_t_keywords
+обнять,v,"эмоции, оценка, отношения",,,rus_o_vs_rus_t_keywords
+крыло,s,действия и движение,,,kidlit_vs_ref_top100
+друг,s,"эмоции, оценка, отношения",,,kidlit_vs_ref_top100
+маленький,a,"цвет, размер, форма",,,kidlit_vs_ref_top100
