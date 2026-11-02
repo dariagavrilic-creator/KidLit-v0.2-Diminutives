@@ -2,7 +2,7 @@
 
 Data and code for the paper
 
-> Gavrilik D.A., Pankova V.Yu. KidLit by Numbers: Diminutives in Original and Translated Russian 0+ Books.
+> [Anonymized Authors] KidLit by Numbers: Diminutives in Original and Translated Russian 0+ Books.
 > *Trudy ISP RAN / Proc. ISP RAS*, 2026 (in press).
 
 The study compares 60 original Russian books rated 0+ (RUS-O) and 60 translated books (RUS-T) from the
