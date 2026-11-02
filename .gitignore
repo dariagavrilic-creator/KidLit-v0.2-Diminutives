@@ -1,0 +1,12 @@
+# working folder of the pipeline: contains the book texts — never commit
+kidlit_dim/
+*.parquet
+corpus*.csv
+*_DO_NOT_SHARE*
+Freq2011*.zip
+*connections.zip
+raw_texts/
+texts/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
