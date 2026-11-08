@@ -2,7 +2,7 @@
 """
 KidLit by Numbers — шаг 1.3: пилотная разметка диминутивов и согласие разметчиков.
 
-1) Сделать таблицы разметки (раздел 7 инструкции v0.2):
+1) Сделать таблицы разметки:
     python kidlit_dim_pilot.py make --data kidlit_dim --books RUS-O_medium_05 RUS-T_short_03 --out pilot
 
    Для каждого разметчика (A, B) создаются два файла:
