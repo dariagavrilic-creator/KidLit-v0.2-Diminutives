@@ -4,7 +4,7 @@ KidLit by Numbers — шаг 3.5 на двойной разметке KidLit-Gol
 
     python kidlit_dim_gold30.py
 
-Вход: data/labelstudio/combined_4.json (A и B: сентимент и NER), data/KidLit_Adjudication_Log.csv (решения по 10 книгам),
+Вход: data/combined.json (A и B: сентимент и NER), data/KidLit_Adjudication_Log.csv (решения по 10 книгам),
       детектор v3.1.
 Выход (analysis/): gold30_sentences.csv, gold30_sentiment_iaa.csv, gold30_sentiment_dim.csv, gold30_ner_dim.csv,
                    gold30_log_coverage.csv, gold30_report.md
