@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""KidLit by Numbers — шаг 3.6: рисунки для статьи (подписи на английском, статья пишется на английском)."""
+"""KidLit by Numbers — шаг 3.6: рисунки для статьи."""
 import numpy as np, pandas as pd, matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
