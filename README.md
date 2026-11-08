@@ -23,7 +23,7 @@ positions. See [DATA_STATEMENT.md](DATA_STATEMENT.md).
 | `data/metadata/books.csv` | Bibliographic metadata of the 120 books (no texts, no publisher blurbs) and the `kidlit_id` ↔ `book_id` mapping. |
 | `data/metadata/book_stats.csv` | Per-book counts used as denominators (tokens, words, sentences, nouns, OOV). |
 | `data/metadata/lemma_repairs.csv` | The 54 lemma pairs corrected after lemmatization (step 0). |
-| `data/metadata/freeze_manifest.json`, `normalization_log.csv` | SHA-256 of the frozen raw and normalized texts (to check your copy of the books) and the log of text normalization. |
+| `data/metadata/freeze_manifest.json`, `normalization_log.csv` | SHA-256 of the frozen raw and normalized texts and the log of text normalization. |
 | `data/lexicon/` | Precedent lexicons of the detector: `dim_lexicon_v3.csv` (81 lemmas, evaluated version) and `dim_lexicon_v3.1.csv` (104 lemmas, corpus annotation). |
 | `data/detector_output/` | Detector outputs for the whole corpus without sentences: v2, v3 without lexicon, v3, v3.1 (one row per candidate token). |
 | `data/gold/` | Gold standard: gold labels after adjudication (`gold_2.3.csv`), selection manifest and books, the candidate sample key with detector-v2 strata and stratum sizes (weights), detector-v2 labels on the full-reading books. |
@@ -36,7 +36,7 @@ positions. See [DATA_STATEMENT.md](DATA_STATEMENT.md).
 | `src/` | Pipeline scripts (steps 0–3) as used in the project. See [src/README.md](src/README.md). |
 | `tools/compute_iaa.py` | Recomputes inter-annotator agreement from the released tables (no texts needed). |
 | `tools/reproduce_table3.py` | Recomputes the detector evaluation (Table 3) from the released gold labels and detector outputs. |
-| `tools/check_no_text.py` | Checks that no fragment of 5+ consecutive words from the books is in the repository (run locally with your copy of the texts). |
+| `tools/check_no_text.py` | Checks that no fragment of 5+ consecutive words from the books is in the repository. |
 | `reports/` | Generated reports: agreement, text-leak check, step 3 analysis reports (in Russian). |
 
 ## Quick check: agreement figures of the paper
@@ -81,14 +81,13 @@ is given only for tokens that an annotator labelled, other rows keep only their 
 In the adjudication log, `label_A/B` etc. are the annotators' decisions, `final_*` the adjudicated ones,
 `type` the reason the case was sent to adjudication (`label`, `base`, `attr`, `unsure`, `consistency`, `gap`,
 `rule`), `confirmed = 1` that the decision was checked. `suggestion`, `confidence` and `suggestion_reason`
-are pre-filled proposals made from the guidelines before adjudication (AI-assisted); they are not decisions.
+are pre-filled proposals made from the guidelines before adjudication; they are not decisions.
 
 ## Reproducing the pipeline
 
 You need your own copy of the 120 books in the corpus CSV format described in `src/step0_corpus_preprocess.py`,
 the Lyashevskaya–Sharoff frequency dictionary (archive `Freq2011.zip`, http://dict.ruslang.ru/freq.php) and
 DerivBase.Ru (`data/wiktionary/v001.00-connections.zip` from https://github.com/s231644/DerivBaseRu).
-Both resources are third-party and are not redistributed here.
 
 ```bash
 pip install -r requirements.txt
@@ -100,8 +99,6 @@ python src/kidlit_dim_detect_v3.py --data kidlit_dim --derivbase v001.00-connect
 
 With the project's copy of the books this chain reproduces the frozen texts (SHA-256 in `data/metadata/freeze_manifest.json`),
 the token table and the released detector output exactly (see `src/README.md`).
-
-The working folder `kidlit_dim/` contains the texts and is ignored by git.
 
 ## Licence
 
