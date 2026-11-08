@@ -2,7 +2,7 @@
 
 ## What the corpus is
 
-KidLit v0.2: 120 fiction books for children with the Russian age rating 0+, published 2014–2026:
+KidLit v0.2: 120 fiction books for children with the Russian age rating 0+, written and published 2015–2026:
 60 original books by Russian authors (RUS-O) and 60 translations into Russian (RUS-T) from English (29),
 French (11), German (10), Italian (4), Polish (2), Swedish (2), Dutch (1) and Finnish (1).
 Book IDs have the form `<group>_<length>_<NN>` (`RUS-O_long_07`); length strata: short < 500 words,
@@ -42,16 +42,5 @@ independent submissions before adjudication (for the pilot, later corrected copi
 all decisions live in the adjudication logs and in the pilot gold labels.
 
 Before adjudication, each case got a proposal derived from the guidelines (`suggestion`, `confidence`,
-`suggestion_reason`, prepared with an AI assistant without access to the detector's labels). The final
+`suggestion_reason`). The final
 decisions (`final_*`, `precedent`, `decision_comment`) were made and confirmed by the authors.
-
-## Known limitations
-
-- `data/gold/gold_2.3.csv` was rebuilt from the released annotator files, the final adjudication log and the original
-  sample key with the project script (`src/step2_3_iaa_adjudication.py`, function `apply_adjudication`). With the released
-  detector outputs it gives the figures of Table 3 (`tools/reproduce_table3.py`).
-- Adjudication case J026 (*карамелька*, dev) was changed from NO to LEX after the test run; it does not affect test figures.
-- `kidlit_id`s were checked against the project book table; the token addresses of all released
-  annotations match the token table of the corpus (step 0).
-- Token addresses depend on the preprocessing (razdel 0.5.0, normalization of the texts in step 0).
-  Other editions of a book may shift `sent_id` / `tok_id`.
