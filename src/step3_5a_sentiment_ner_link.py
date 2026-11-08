@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-KidLit by Numbers — шаг 3.5: диминутивы и разметка сентимента / NER (экспорт Label Studio).
+KidLit by Numbers — шаг 3.5: диминутивы и разметка сентимента / NER.
 
     python kidlit_dim_goldlink.py
 
