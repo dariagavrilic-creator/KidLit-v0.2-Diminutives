@@ -1,4 +1,4 @@
-# Шаг 3.5 на двойной разметке KidLit-Gold (30 книг, A и B)
+# KidLit-Gold (30 книг, A и B)
 
 Файл: KidLit_NER_Sentiment_Combined (4).json — 30 книг × 2 разметчицы, статус complete. Перенос смещений: не перенесено спанов 0.
 
