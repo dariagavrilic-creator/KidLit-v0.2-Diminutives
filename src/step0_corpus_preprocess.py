@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 """
-KidLit by Numbers — статья о диминутивах (ISP RAS Open 2026).
-Шаги 0.2–0.4 дорожной карты: заморозка корпуса, предобработка, референсный ресурс.
+KidLit by Numbers: заморозка корпуса, предобработка, референсный ресурс.
 
-Запуск (все шаги):
+Запуск:
     python kidlit_dim_step0.py --corpus corpus.csv --extra-texts kid_lit_all_ru.txt \
         --freq-zip Freq2011_original.zip --out kidlit_dim
 
